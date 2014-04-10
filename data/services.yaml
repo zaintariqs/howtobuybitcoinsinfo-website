@@ -151,6 +151,16 @@ coined:
     <p>Convert NZD into BTC. Deposit funds online or over the counter (Kiwibank).</p>
   coins: [btc]
 
+CoinBit:
+  countries: [it]
+  location: [it]
+  icon: /favicon.ico
+  label: CoinBit
+  url: http://www.coinbit.it/
+  content:|
+    <p>Bitcoin in 5 minuti grazie ad un sistema completamente automatizzato. Bonifico, Postepay e Superflash</p>
+  coins: [btc, ltc]
+
 posteb:
   countries: [it]
   location: [it]
