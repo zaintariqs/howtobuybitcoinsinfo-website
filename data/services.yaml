@@ -212,6 +212,25 @@ rbitcoin:
       </ul>
   coins: [btc]
 
+Mengmengbi (萌萌币):
+  label: Mengmengbi.cn
+  countries: [cn]
+  location: [hk]
+  url: https://www.mengmengbi.cn
+  content: 
+  <ul>
+    <li>Powered by ANX</li>
+    <li>Zero Trading Fees</li>
+    <li>Instant processing of CNY deposits</li>
+    <li>Near realtime processing of CNY withdraways (Mon-Fri)</li>
+    <li>Gox compatible Trading API with BTC, DOGE, LTC, PPC, NMC support</li>
+    <li>Zero bank transfer fees</li>
+    <li>Shared liquidity with ANX, one of the top 10 Bitcoin exchanges in the world</li>
+    <li>Multilingual support (English, Traditional Chinese, Simplified Chinese)</li>
+    <li>Two-Factor Authentication</li>
+  </ul>
+  coins: [BTC,LTC,NMC,PPC,DOGE]
+
 bitcoincomes:
   label: Bitcoin.com.es
   countries: [es]
