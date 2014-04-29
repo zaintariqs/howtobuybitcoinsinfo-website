@@ -14,11 +14,12 @@ HitBTC:
   icon: /favicon.png
   url: https://hitbtc.com/
   content: |
-      <p>HitBTC brings cutting-edge technology to the Bitcoin ecosystem. Excellent trading terminal inspired by professional trading software
-<ul>
-<li>Cutting-edge technology places and matches your order in milliseconds.</li>
-<li>Fast turnaround on deposits, withdrawals and support requests with flexible payment validation</li>
-</ul></p>
+     <p>HitBTC brings cutting-edge technology to the Bitcoin ecosystem. Excellent trading terminal inspired by professional trading software
+        <ul>
+          <li>Cutting-edge technology places and matches your order in milliseconds.</li>
+          <li>Fast turnaround on deposits, withdrawals and support requests with flexible payment validation</li>
+        </ul>
+      </p>
   coins: [btc, ltc]
 
 cryptsy:
