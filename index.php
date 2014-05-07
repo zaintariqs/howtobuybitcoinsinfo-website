@@ -1,8 +1,14 @@
 <?
+	error_reporting(E_ALL);
+	ini_set('display_errors', '1');
+
 	require_once("lib/spyc.php");
 	require_once("lib/howtobuy.php");
 
-	$currentcountry = $_REQUEST['country'];
+	$currentcountry = isset($_REQUEST['country'])?$_REQUEST['country']:null;
+	if ($currentcountry===null || strlen($currentcountry)!=2){
+		unset($currentcountry);
+	}
 
 	$countrynames = get_country_data();
 	$serviceData = get_service_data(); 
@@ -13,14 +19,14 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="google-site-verification" content="9knoXHCRFNvyZR1PYMcB5zZ9VgdDJm8hE-DncAg_u3U" />
-	<title>How to Buy Bitcoins<? if ($currentcountry){ echo " in ".$countrynames[$currentcountry]; } ?></title>
+	<title>How to Buy Bitcoins<? if (isset($currentcountry)){ echo " in ".$countrynames[$currentcountry]; } ?></title>
 	<meta name="description" content="List of places to buy bitcoins in your country. Payments by bank transfer, PayPal and phone, as well as many other methods.">
 	<meta name="robots" content="index, follow" />
 	<link rel="shortcut icon" href="/favicon.png" />
 	<link rel="apple-touch-icon" href="/touchicon.png"/>
 	<link rel="stylesheet" href="/css/style.css"/>
 	
-	<meta property="og:title" content="How to Buy Bitcoins<? if ($currentcountry){ echo " in ".$countrynames[$currentcountry]; } ?>" />
+	<meta property="og:title" content="How to Buy Bitcoins<? if (isset($currentcountry)){ echo " in ".$countrynames[$currentcountry]; } ?>" />
 	<meta property="og:description" content="List of places to buy bitcoins in your country. Payments by bank transfer, PayPal and phone, as well as many other methods." />
 	<meta property="og:image" content="http://<?=$_SERVER["SERVER_NAME"]?>/logo256.png" />
 	<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:700' rel='stylesheet' type='text/css'>
@@ -35,14 +41,14 @@
 
 </head>
 <body <?
-	if($currentcountry){
+	if(isset($currentcountry)){
 		echo "class='country'";
 	}
 ?>>
 <style>
 	#searchbox{
 		background-image: url(#);
-		<? if($currentcountry): ?>
+		<? if(isset($currentcountry)): ?>
 			background-image: url(/img/miniflags/<?= $currentcountry ?>.png);
 		<? endif; ?>
 		background-position: 5px 8px;
@@ -79,7 +85,7 @@
 
 <div id="headingarea">
 	<div id="maparea">
-		<?if(!$currentcountry){?>
+		<?if(!isset($currentcountry)){?>
 			<a href="/jp.html" rel="jp" class="ajaxlink flagicon" id="flag_jp"><img src="img/flags/jp.png" width="48" height="48"><br>Japan</a>
 			<a href="/us.html" rel="us" class="ajaxlink flagicon" id="flag_us"><img src="img/flags/us.png" width="48" height="48"><br>USA</a>
 			<a href="/uk.html" rel="uk" class="ajaxlink flagicon" id="flag_uk"><img src="img/flags/uk.png" width="48" height="48"><br>UK</a>
@@ -158,6 +164,8 @@
 		</div>
 	</div>
 
+	<?if (isset($currentcountry)){?>
+
 	<div class="results">
 		<hr />
 		<h3>Exchanges in <?=$countrynames[$currentcountry]?>:</h3>
@@ -166,7 +174,7 @@
 	<div class="resultsmasonry">
 	
 		<?
-			if($currentcountry){
+			if(isset($currentcountry)){
 				generate_country_boxes_local($serviceData, $currentcountry);
 			}
 		?>
@@ -180,13 +188,14 @@
 
 	<div class="resultsmasonry">
 		<?
-			if($currentcountry){
+			if(isset($currentcountry)){
 				generate_country_boxes_nonlocal($serviceData, $currentcountry);
 			}
 		?>
 
 	</div>
 
+	<?}?>
 
 </div>
 
@@ -222,8 +231,8 @@
 
 <div id="heading">
 	<h1><a href="/">How to buy<br>bitcoins in</a></h1>
-	<input type="text" id="searchbox" onClick="this.select();" name="country" value="<? if($currentcountry){ echo $countrynames[$currentcountry]; }?>" placeholder="Enter country name" />
-	<?if(!$currentcountry){?>
+	<input type="text" id="searchbox" onClick="this.select();" name="country" value="<? if(isset($currentcountry)){ echo $countrynames[$currentcountry]; }?>" placeholder="Enter country name" />
+	<?if(!isset($currentcountry)){?>
 		<a href="/us.html"><img src="img/miniflags/us.png" title="USA" /></a>
 		<a href="/uk.html"><img src="img/miniflags/uk.png" title="UK" /></a>
 		<a href="/cn.html"><img src="img/miniflags/cn.png" title="中国" /></a>
@@ -261,7 +270,7 @@
 
 	$(document).ready(function(){
 
-		var currentCountryCode="<?=$currentcountry?>";
+		var currentCountryCode="<?=isset($currentcountry)?$currentcountry:""?>";
 
 		$(".langBox").hide();
 		$(".titleBox").hide();
@@ -322,7 +331,7 @@
 		});
 
 		searchbox.blur(function(event) {
-			if ($(this).val() == '') $(this).val('<? if($currentcountry){ echo $countrynames[$currentcountry]; }?>');
+			if ($(this).val() == '') $(this).val('<? if(isset($currentcountry)){ echo $countrynames[$currentcountry]; }?>');
 		});
 
 	});

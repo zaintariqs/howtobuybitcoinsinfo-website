@@ -12,7 +12,7 @@ function generate_box($service,$currentCountryCode){
   $locationHtml="";
   if (isset($service["location"])){
     foreach($service["location"] as $locationCountryCode){
-      if ($locationCountryCode == $currentCountryCode){
+      if ($locationCountryCode === $currentCountryCode){
         $locationHtml.='<img src="/img/miniflags/'.$locationCountryCode.'.png" onclick="return false;" title="Based in this country." style="float:right;padding:2px;margin-right:0px" />';
       }
     }
@@ -51,7 +51,7 @@ function generate_country_boxes_local($data, $currentCountryCode){
       continue;
     }
     
-    if (! $service["hidden"] && 
+    if (!isset($service["hidden"]) && 
         isset($service["countries"]) &&
         (
           //Supports this country
@@ -82,7 +82,7 @@ function generate_country_boxes_nonlocal($data, $currentCountryCode){
       continue;
     }
 
-    if (! $service["hidden"] && 
+    if (!isset($service["hidden"]) && 
         isset($service["countries"]) &&
         (
           //Supports this country
