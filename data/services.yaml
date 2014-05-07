@@ -23,6 +23,15 @@ cryptsy:
   content: Trade over 60 different types of cryptocurrencies.
   coins: [ALF, AMC, ANC, ARG, BQC, BTB, BTE, BTG, BUK, CAP, CGB, CLR, CMC, CRC, CSC, DGC, DMD, ELC, EMD, FRC, FRK, FST, FTC, GDC, GLC, GLD, GLX, HBN, IXC, KGC, LK7, LKY, LTC, MEC, MNC, NBL, NEC, NMC, NRB, NVC, PHS, PPC, PTS, PXC, PYC, QRK, SBC, SPT, SRC, TAG, TEK, TRC, WDC, XJO, XPM, YAC, ZET]
 
+coinrnr:
+  label: CoinRnr
+  countries: [us, ca]
+  location: [us]
+  icon: https://www.coinrnr.com/favicon.ico
+  url: https://www.coinrnr.com
+  content: Purchase bitcoin by cash deposit, wire transfer, INTERAC® Online, or Credit/Debit Card and receive it on the same day!
+  coins: [btc]
+
 coincafe:
   icon: https://getcoincafe.com/img/favicon.png
   label: CoinCafe
@@ -781,15 +790,6 @@ giftcarddrainer:
   icon: https://giftcarddrainer.com/gcdc/resources/images/favicon.ico
   url: https://giftcarddrainer.com
   content: GiftCard Drainer provides a way to buy Bitcoins quickly. Submit a Visa, MasterCard, American Express or Discover gift card and receive payment in Bitcoins immediately or within 24 hours.
-  coins: [btc]
-
-coinrnr:
-  label: CoinRnr
-  countries: [us]
-  location: [us]
-  icon: https://coinrnr.com/favicon.ico
-  url: https://coinrnr.com
-  content: CoinRnr allows users to purchase bitcoins with cash deposits at major US banks or sell bitcoin and receive bank transfers. Most orders are processed within 15 minutes of payment confirmation.
   coins: [btc]
 
 quickbtaustralia:
