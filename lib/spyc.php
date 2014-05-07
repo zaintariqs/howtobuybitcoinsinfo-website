@@ -595,7 +595,7 @@ class Spyc {
     }
 
     if (in_array(strtolower($value),
-                 array('false', 'off', '-', 'no', 'n'))) {
+                 array('false', 'off', '-', 'n'))) {
       return false;
     }
 

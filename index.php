@@ -166,34 +166,34 @@
 
 	<?if (isset($currentcountry)){?>
 
-	<div class="results">
-		<hr />
-		<h3>Exchanges in <?=$countrynames[$currentcountry]?>:</h3>
-	</div>
-	
-	<div class="resultsmasonry">
-	
-		<?
-			if(isset($currentcountry)){
-				generate_country_boxes_local($serviceData, $currentcountry);
-			}
-		?>
+		<div class="results">
+			<hr />
+			<h3>Exchanges in <?=$countrynames[$currentcountry]?>:</h3>
+		</div>
+		
+		<div class="resultsmasonry">
+		
+			<?
+				if(isset($currentcountry)){
+					generate_country_boxes_local($serviceData, $currentcountry);
+				}
+			?>
 
-	</div>
+		</div>
 
-	<div class="results">
-		<hr />
-		<h3>Exchanges supporting <?=$countrynames[$currentcountry]?>:</h3>
-	</div>
+		<div class="results">
+			<hr />
+			<h3>Exchanges supporting <?=$countrynames[$currentcountry]?>:</h3>
+		</div>
 
-	<div class="resultsmasonry">
-		<?
-			if(isset($currentcountry)){
-				generate_country_boxes_nonlocal($serviceData, $currentcountry);
-			}
-		?>
+		<div class="resultsmasonry">
+			<?
+				if(isset($currentcountry)){
+					generate_country_boxes_nonlocal($serviceData, $currentcountry);
+				}
+			?>
 
-	</div>
+		</div>
 
 	<?}?>
 
