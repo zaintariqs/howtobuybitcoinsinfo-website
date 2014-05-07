@@ -1,4 +1,4 @@
-Cointrader:
+cointrader:
   label: Cointrader.net
   icon: https://www.cointrader.net/favicon.ico.png
   countries: [us, ru, nl, fi, pl, cz, it, si, li, es, be, bg, cz, dk, de, ee, ie, el, es, fr, it, cy, lv, lt, lu, hu, mt, nl, at, pl, pt, ro, si, sk, fi, se, uk]
@@ -109,8 +109,9 @@ ibwt:
   icon: /favicon.png
   label: IBWT
   url: https://ibwt.co.uk/
-  content: <b>Cryptocurrency exchange.</b>
-  <p>Buy and Sell Bitcoins, and other Cryptocurrency via IBWT, low verification, a secure platform, easy to withdraw and deposit. Shop direct from IBWT or withdraw your coins to your own wallet at your own leisure.</p>
+  content: |
+    <b>Cryptocurrency exchange.</b>
+    <p>Buy and Sell Bitcoins, and other Cryptocurrency via IBWT, low verification, a secure platform, easy to withdraw and deposit. Shop direct from IBWT or withdraw your coins to your own wallet at your own leisure.</p>
   countries: [uk, us, gb, in]
   location: [uk]
   coins: [BTC, LTC, XGC]
@@ -140,7 +141,7 @@ buymastercoin:
   content: Broker for Mastercoin sales.
   coins: [MSC]
 
-DGEX:
+dgex:
   icon: /favicon.png
   label: DGEX (DiGiEXchange)
   url: http://dgex.com/
@@ -255,23 +256,23 @@ rbitcoin:
       </ul>
   coins: [btc]
 
-Mengmengbi (萌萌币):
+mengmengbi:
   label: Mengmengbi.cn
   countries: [cn]
   location: [hk]
   url: https://www.mengmengbi.cn
-  content: 
-  <ul>
-    <li>Powered by ANX</li>
-    <li>Zero Trading Fees</li>
-    <li>Instant processing of CNY deposits</li>
-    <li>Near realtime processing of CNY withdraways (Mon-Fri)</li>
-    <li>Gox compatible Trading API with BTC, DOGE, LTC, PPC, NMC support</li>
-    <li>Zero bank transfer fees</li>
-    <li>Shared liquidity with ANX, one of the top 10 Bitcoin exchanges in the world</li>
-    <li>Multilingual support (English, Traditional Chinese, Simplified Chinese)</li>
-    <li>Two-Factor Authentication</li>
-  </ul>
+  content: |
+    <ul>
+      <li>Powered by ANX</li>
+      <li>Zero Trading Fees</li>
+      <li>Instant processing of CNY deposits</li>
+      <li>Near realtime processing of CNY withdraways (Mon-Fri)</li>
+      <li>Gox compatible Trading API with BTC, DOGE, LTC, PPC, NMC support</li>
+      <li>Zero bank transfer fees</li>
+      <li>Shared liquidity with ANX, one of the top 10 Bitcoin exchanges in the world</li>
+      <li>Multilingual support (English, Traditional Chinese, Simplified Chinese)</li>
+      <li>Two-Factor Authentication</li>
+    </ul>
   coins: [BTC,LTC,NMC,PPC,DOGE]
 
 bitcoincomes:
@@ -374,6 +375,15 @@ bittylicious:
   url: https://bittylicious.com/
   content: |
       <p>Enter a Bitcoin address, send an instant UK bank transfer payment and the Bitcoins are transferred automatically.</p> 
+  coins: [btc]
+
+bitinnovate:  
+  label: BitInnovate.com
+  icon: https://bitinnovate.com/favicon.ico
+  countries: [au, nz]
+  url: https://bitinnovate.com/
+  content: |
+      <p>Buy bitcoin in New Zealand and Australia over-the-counter transfer.</p>
   coins: [btc]
 
 okpay:
@@ -513,6 +523,15 @@ bitmarket:
   url: https://bitmarket.co
   content: |
       <p>Exchange based in Colombia.</p>
+  coins: [btc]
+
+btcmarkets:
+  label: BtcMarkets.net
+  countries: [au]
+  location: [au]
+  icon: /favicon.png
+  url: https://www.btcmarkets.net
+  content: Bitcoin exchange.
   coins: [btc]
 
 btc-dealer:
@@ -717,16 +736,6 @@ cavirtex:
   url: https://www.cavirtex.com/
   content:|
     <p>Canadian exchange offering both cash deposit and EFT direct transfer with Canadian banks.</p>
-  coins: [btc]
-
-kapiton:
-  countries: [se]
-  location: [se]
-  icon: https://kapiton.se/favicon.ico
-  label: Kapiton.se
-  url: https://kapiton.se/
-  content:|
-    <p>This exchange is registered, but not regulated by, the financial inspector in Sweden.</p>
   coins: [btc]
 
 quickbt:
@@ -1303,8 +1312,7 @@ buybitcoinph:
     <p>Safest and easiest way to buy and sell bitcoins in Philippines.</p>
   tags: [atm]
   coins: [BTC]
-	
-	
+
 BTCTalk:
   label: btctalk.com Persian Bitcoin Community
   countries: [ir, tr, af, iq]
