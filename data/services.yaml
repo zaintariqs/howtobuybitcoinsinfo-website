@@ -1,3 +1,12 @@
+Cointrader:
+  label: Cointrader.net
+  icon: https://www.cointrader.net/favicon.ico.png
+  countries: [us, ru, nl, fi, pl, cz, it, si, li, es, be, bg, cz, dk, de, ee, ie, el, es, fr, it, cy, lv, lt, lu, hu, mt, nl, at, pl, pt, ro, si, sk, fi, se, uk]
+  url: https://www.cointrader.net/
+  content:|
+      <p>Buy and sell bitcoins through a simple exchange. This is the cheapest way to trade bitcoins.</p>
+  coins: [btc]
+
 bitstamp:
   label: BitStamp.net
   icon: https://www.bitstamp.net/s/icons/favicon.ico
