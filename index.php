@@ -158,14 +158,35 @@
 		</div>
 	</div>
 
-	<div id="results">
+	<div class="results">
+		<hr />
+		<h3>Exchanges in <?=$countrynames[$currentcountry]?>:</h3>
+	</div>
+	
+	<div class="resultsmasonry">
+	
 		<?
 			if($currentcountry){
-				generate_country_boxes($serviceData, $currentcountry);
+				generate_country_boxes_local($serviceData, $currentcountry);
 			}
 		?>
 
 	</div>
+
+	<div class="results">
+		<hr />
+		<h3>Exchanges supporting <?=$countrynames[$currentcountry]?>:</h3>
+	</div>
+
+	<div class="resultsmasonry">
+		<?
+			if($currentcountry){
+				generate_country_boxes_nonlocal($serviceData, $currentcountry);
+			}
+		?>
+
+	</div>
+
 
 </div>
 
@@ -275,7 +296,7 @@
 
 		var countries = [];
 		$("#warningarea").masonry({itemSelector:".warningBox"});
-		$("#results").masonry({itemSelector:".serviceBox"});
+		$(".resultsmasonry").masonry({itemSelector:".serviceBox"});
 
 		for(var countryIndex in countryNamesArr){
 			var countryCode = countryNamesArr[countryIndex][0];

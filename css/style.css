@@ -252,7 +252,13 @@ a{
   margin: 0 auto;
 }
 
-#results{
+.results{
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.resultsmasonry{
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;

@@ -19,11 +19,7 @@ function generate_box($service,$currentCountryCode){
   }
 
   ?>
-  <div class="serviceBox <? 
-    foreach($service["countries"] as $country):
-      echo $country." ";
-    endforeach;
-  ?>">
+  <div class="serviceBox ">
       <a href="<?= $service["url"] ?>" target="_blank">
         <h3 class="box-title">
             <img width="16" height="16" src="<?= $service["icon"] ?>"> <?= $service["label"] ?> <?=$locationHtml?>
@@ -42,7 +38,8 @@ function generate_box($service,$currentCountryCode){
   <?
 }
 
-function generate_country_boxes($data, $currentCountryCode){
+function generate_country_boxes_local($data, $currentCountryCode){
+  
   foreach($data as $service){
     
     //Remove altcoin-only exchanges
@@ -71,6 +68,10 @@ function generate_country_boxes($data, $currentCountryCode){
       generate_box($service,$currentCountryCode); 
     }
   }
+}
+
+function generate_country_boxes_nonlocal($data, $currentCountryCode){
+  
   foreach($data as $service){
     //Remove altcoin-only exchanges
     if (
