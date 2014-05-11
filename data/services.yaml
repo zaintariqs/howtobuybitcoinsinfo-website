@@ -1326,3 +1326,12 @@ BTCTalk:
         <li>Exchange between BTC and IRR easily</li>
       </ul>
   coins: [btc, ltc]
+
+J&KCoins:
+  label: JandKCoins.ca
+  countries: [ca]
+  location: [ca]
+  icon: /favicon.png
+  url: http://www.jandkcoins.ca/
+  content: <p>J&KCoins - Offers Canadian residents a safe and secure method of purchasing paper wallets preloaded with Bitcoins using Interac Online.</p>
+  coins: [btc, doge]
