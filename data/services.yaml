@@ -514,6 +514,16 @@ bitcoin4australia:
       <p>Australian Bitcoin Exchange supplying Bitcoin for cash over the counter deposit at the Major Australian Banks.</p>
   coins: [btc]
 
+forepost:
+  label: Forepost
+  countries: [au]
+  location: [au]
+  icon: /favicon.ico
+  url: https://forepost.com.au
+  content: |
+      <p>Buy Bitcoins with Cash at any one of Australia’s Big Four - Commonwealth Bank, ANZ, NAB or Westpac.</p>
+  coins: [btc]
+
 bitmarket:
   label: BitMarket.co
   countries: [co]
