@@ -7,6 +7,20 @@ cointrader:
       <p>Buy and sell bitcoins through a simple exchange. This is the cheapest way to trade bitcoins.</p>
   coins: [btc]
 
+bitcoin24:
+  label: Bitcoin-24
+  icon: https://bitcoin-24.com/img/favicon.png
+  countries: [us, ru, nl, fi, pl, cz, it, si, li, es, be, bg, cz, dk, de, ee, ie, el, es, fr, it, cy, lv, lt, lu, hu, mt, nl, at, pl, pt, ro, si, sk, fi, se, uk]
+  url: https://bitcoin-24.com
+  content:|
+      <p>Buy and sell bitcoins with other users through an online marketplace.
+        <ul>
+          <li>Instant deposit with Credit Card</li>
+          <li>Instant deposit with SOFORT Überweisung</li>
+        </ul>
+      </p>
+  coins: [btc]
+
 bitstamp:
   label: BitStamp.net
   icon: https://www.bitstamp.net/s/icons/favicon.ico
