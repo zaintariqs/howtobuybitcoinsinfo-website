@@ -187,7 +187,7 @@ coined:
 CoinBit:
   countries: [it]
   location: [it]
-  icon: /favicon.ico
+  icon: http://www.coinbit.it/favicon.ico
   label: CoinBit
   url: http://www.coinbit.it/
   content:|
