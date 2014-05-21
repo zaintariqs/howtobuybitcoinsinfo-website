@@ -58,9 +58,9 @@ coinrnr:
   coins: [btc]
 
 coinsph:
-  icon: http://coins.ph/static/img/favicon.png
+  icon: https://coins.ph/static/img/favicon.png
   label: CoinsPH
-  url: http://coins.ph/
+  url: https://coins.ph/
   content: Buy, Sell, and Accept Bitcoin in Asia.
   coins: [BTC]
   countries: [ph, id, vn, th, my]
