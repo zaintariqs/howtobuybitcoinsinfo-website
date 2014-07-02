@@ -29,6 +29,15 @@ bitstamp:
   content:|
       <p>Buy and sell bitcoins with other users through an online marketplace.</p>
   coins: [btc]
+  
+expresscoin:
+  label: expresscoin.com
+  icon: http://expresscoin.com/themes/expresscoin/assets/images/favicon.ico
+  countries: [ca]
+  url: http://expresscoin.com
+  content:|
+      <p>Fast, easy and safe way to buy Bitcoin, Dogecoin, Litecoin and other alt coins using your debit card.</p>
+  coins: [btc]
 
 brawker:
   label: Brawker
