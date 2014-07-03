@@ -26,7 +26,7 @@ function generate_box($service,$currentCountryCode){
         </h3>
       </a>
     <div class="box-content">
-      <p><?= $service["content"] ?></p>
+      <p><?= isset($service["content"]) ? $service["content"] : 'nothing' ?></p>
     </div>
     <div class="left">
       <div class="fb-like" data-href="<?= $service["url"] ?>" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
