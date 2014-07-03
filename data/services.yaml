@@ -69,7 +69,7 @@ coincafe:
   location: [us]
   url: https://www.coincafe.com/
   content: |
-      <p>The fastest New York based exchange. Buy from anywhere in the world. No waiting, no hassles. Buy Bitcoins with cash, wire transfer, check, or debit card.</p>
+      <p>The fastest New York based exchange. Buy from anywhere in the world. No waiting, no hassles. Buy Bitcoins with cash, check, wire transfer, Western Union, or credit/debit card.</p>
       <p>Find us on Twitter here: <a href="https://twitter.com/getcoincafe">@GetCoinCafe</></p>
   coins: [BTC]
 
