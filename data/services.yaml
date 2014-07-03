@@ -1515,3 +1515,12 @@ bitcointh:
   coins: [BTC]
   countries: [th]
   location: [th]
+
+kitiwa:
+  label: Kitiwa
+  icon: https://kitiwa.com/favicon.ico
+  countries: [gh, ng]
+  url: http://kitiwa.com
+  content:|
+      <p>Buy bitcoins in Ghana and Nigeria with Mobile Money or Bank Transfers. This is the easiest and fastest way to buy Bitcoins in Ghana and Nigeria.</p>
+  coins: [btc]
