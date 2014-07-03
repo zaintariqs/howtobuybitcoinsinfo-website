@@ -1,3 +1,12 @@
+coinspot:
+  label: CoinSpot
+  icon: https://d251lnmie5xeg6.cloudfront.net/public/img/coinspot-sml.png?v=35
+  countries: [au,nz]
+  url: https://www.coinspot.com.au
+  content:|
+      <p>Free to Sell, Easy to Buy. Bitcoin, Litecion, Dogecoin and more direct for AUD</p>
+  coins: [btc, ltc, doge, ppc, qrk, moon, ftc, nmc, max, wdc, lot, xpm]
+  
 cointrader:
   label: Cointrader.net
   icon: https://www.cointrader.net/favicon.ico.png
