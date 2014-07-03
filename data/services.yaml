@@ -1403,3 +1403,12 @@ J&KCoins:
   url: http://www.jandkcoins.ca/
   content: <p>J&KCoins - Offers Canadian residents a safe and secure method of purchasing paper wallets preloaded with Bitcoins using Interac Online.</p>
   coins: [btc, doge]
+  
+BitBay:
+  label: BitBay
+  countries: [nl, fi, pl, cz, it, si, li, es, be, bg, cz, dk, de, ee, ie, el, es, fr, it, cy, lv, lt, lu, hu, mt, nl, at, pt, ro, si, sk, fi, se, uk]
+  location: [pl]
+  icon: https://bitbay.pl/Templates/page/images/favicon.ico
+  url: http://bitbay.net/
+  content: <p>Bitcoin and Litecoin exchange with 24/7 email and phone support</p>
+  coins: [btc, ltc]
