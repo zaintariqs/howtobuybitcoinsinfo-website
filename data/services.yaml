@@ -1470,11 +1470,18 @@ hitbtc:
 
 Cryptopay:
   icon: https://cryptopay.me/assets/logo-ecd6c3e91ce5a34fa78904536c62ac1a.svg
-  label: BittyBot
+  label: Cryptopay
   countries: [uk]
   location: [uk]
   url: https://crypotopay.me
-  content: Fast deposits and payouts. A lot of liquidity, integrated wallet and merchant processing.
+  content: <p>Fast deposits and payouts. A lot of liquidity, integrated wallet and merchant processing.</p>
+  <ul>
+  <li>Free UK deposits</li>
+  <li>Free SEPA deposit</li>
+  <li>Free payouts</li>
+  <li>Flat transaction fee of 1%</li>
+  <li>HMRC regulated</li>
+  </ul>
   coins: [BTC]
 
 CoinMama:
