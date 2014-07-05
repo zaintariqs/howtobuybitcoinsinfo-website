@@ -1507,8 +1507,9 @@ Cryptopay:
   label: Cryptopay
   countries: [uk]
   location: [uk]
-  url: https://crypotopay.me
-  content: <p>Fast deposits and payouts. A lot of liquidity, integrated wallet and merchant processing.</p>
+  url: https://cryptopay.me
+  content: |
+  <p>Fast deposits and payouts. A lot of liquidity, integrated wallet and merchant processing.</p>
   <ul>
   <li>Free UK deposits</li>
   <li>Free SEPA deposit</li>
