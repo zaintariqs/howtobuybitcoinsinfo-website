@@ -858,7 +858,7 @@ virwox:
   url: https://www.virwox.com
   content:|
     <p>VirWoX is currently the only exchange where you can buy BTC with PayPal and Credit Cards (among other payment methods).</p>
-    <p><a href="http://99bitcoins.com/buying-bitcoins-with-paypal-a-practical-guide/">How to buy Bitcoins with VirWox.</a></p>
+    <p><a href="http://buybitcoinspaypal.com/buy-bitcoins-with-paypal/">How to buy Bitcoins with VirWox.</a></p>
   coins: [btc]
 
 vaultofsatoshi:
@@ -1525,11 +1525,11 @@ CoinMama:
   label: CoinMama 
   url: https://www.coinmama.com
   content:|
-    <p>VirWoX is currently the only exchange where you can buy BTC/LTC with PayPal and Credit Cards (among other payment methods).</p>
+    <p>Coinmama provides the easiest way to buy virtual currency! Buy Bitcoins and Litecoins with your credit card or Western Union instantlyhere!</p>
     <p><a href="http://buybitcoinspaypal.com/buy-bitcoins-with-paypal-or-debit-card-using-coinmama/">How to buy Bitcoins with CoinMama</a></p>
   coins: [btc,ltc]
 
-morrex:
+morrex:vi
   label: MORREX.COM
   icon: https://www.morrex.com/img/ca.gif
   countries: [ca]
