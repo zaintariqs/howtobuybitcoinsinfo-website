@@ -41,7 +41,7 @@ function generate_box($service,$currentCountryCode){
 function generate_country_boxes_local($data, $currentCountryCode){
   
   foreach($data as $service){
-    
+
     //Remove altcoin-only exchanges
     if (
       isset($service["coins"]) && 
