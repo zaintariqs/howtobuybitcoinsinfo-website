@@ -1508,7 +1508,7 @@ Cryptopay:
   countries: [uk]
   location: [uk]
   url: https://crypotopay.me
-  content: <p>Fast deposits and payouts. A lot of liquidity, integrated wallet and merchant processing.</p>
+  content: <p>Fast deposits and payoviruts. A lot of liquidity, integrated wallet and merchant processing.</p>
   <ul>
   <li>Free UK deposits</li>
   <li>Free SEPA deposit</li>
@@ -1529,7 +1529,7 @@ CoinMama:
     <p><a href="http://buybitcoinspaypal.com/buy-bitcoins-with-paypal-or-debit-card-using-coinmama/">How to buy Bitcoins with CoinMama</a></p>
   coins: [btc,ltc]
 
-morrex:vi
+morrex:
   label: MORREX.COM
   icon: https://www.morrex.com/img/ca.gif
   countries: [ca]
