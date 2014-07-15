@@ -858,7 +858,7 @@ virwox:
   url: https://www.virwox.com
   content:|
     <p>VirWoX is currently the only exchange where you can buy BTC with PayPal and Credit Cards (among other payment methods).</p>
-    <p><a href="http://99bitcoins.com/buying-bitcoins-with-paypal-a-practical-guide/">How to buy Bitcoins with VirWox.</a></p>
+    <p><a href="http://buybitcoinspaypal.com/buy-bitcoins-with-paypal/">How to buy Bitcoins with VirWox.</a></p>
   coins: [btc]
 
 vaultofsatoshi:
@@ -1537,7 +1537,7 @@ morrex:
   location: [ca]
   url: https://www.morrex.com
   content:|
-      <p>MORREX Inc, Canadian Based exchange, First digital currency exchanger in Quebec. Interac Online available !   </p>
+      <p>MORREX Inc, Canadian Based exchange, First digital currency exchanger in Quebec. Interac Online available !</p>
   coins: [btc,ltc,ftc]
 
 bx:
@@ -1575,3 +1575,4 @@ BuyABitcoin.com.au:
   url: https://www.buyabitcoin.com.au/
   content:  BuyABitcoin.com.au helps Australians purchase Bitcoin easily and quickly, online. 
   coins: [btc]
+
