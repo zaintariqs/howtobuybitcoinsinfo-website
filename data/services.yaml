@@ -1566,3 +1566,12 @@ kitiwa:
   content:|
       <p>Buy bitcoins in Ghana and Nigeria with Mobile Money or Bank Transfers. This is the easiest and fastest way to buy Bitcoins in Ghana and Nigeria.</p>
   coins: [btc]
+
+BuyABitcoin.com.au:
+  label: BuyABitcoin.com.au
+  countries: [au]
+  location: [au]
+  icon: https://buyabitcoin.com.au/wp-content/uploads/2014/07/favicon.png
+  url: https://www.buyabitcoin.com.au/
+  content:  BuyABitcoin.com.au helps Australians purchase Bitcoin easily and quickly, online. 
+  coins: [btc]
