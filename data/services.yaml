@@ -39,6 +39,17 @@ bitstamp:
       <p>Buy and sell bitcoins with other users through an online marketplace.</p>
   coins: [btc]
 
+celery:
+  icon: https://www.gocelery.com/favicon.ico
+  label: celery
+  countries: [us]
+  location: [us]
+  url: https://www.gocelery.com/
+  content: |
+      <p>Easy and secure way to buy Bitcoin, Dogecoin. Start by linking a US bank account. Based in New York, NY.</p>
+      <p>Twitter: <a href="https://twitter.com/btxtrader">@btxtrader</></p>
+  coins: [btc, Doge]
+
 coincafe:
   icon: https://coincafe.com/img/favicon.png
   label: Coin Cafe
