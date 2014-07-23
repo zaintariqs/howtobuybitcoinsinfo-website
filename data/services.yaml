@@ -1575,3 +1575,12 @@ BuyABitcoin.com.au:
   url: https://www.buyabitcoin.com.au/
   content:  BuyABitcoin.com.au helps Australians purchase Bitcoin easily and quickly, online. 
   coins: [btc]
+
+bitcoinvietnam:
+  label: Bitcoin Vietnam
+  countries: [vn]
+  location: [vn]
+  icon: http://bitcoinvietnam.com.vn/images/icons/btcvietnamicon.png
+  url: http://www.bitcoinvietnam.com.vn
+  content:  You can buy and sell Bitcoins using VND. We also provide reliable payment tools for merchants and a remittance road to Vietnam.
+  coins: [btc]
