@@ -835,10 +835,17 @@ cavirtex:
   location: [ca]
   icon: /favicon.png
   label: Canadian Virtual Exchange
-  url: https://www.cavirtex.com/
+  url: affiliates.cavirtex.com/trade-bitcoin-the-canadian-way/53324/
   content:|
-    <p>Canadian exchange offering both cash deposit and EFT direct transfer with Canadian banks.</p>
-  coins: [btc]
+    <p>CAVIRTEX is Canada’s oldest and largest Bitcoin exchange. In its 3 years of operation, CAVIRTEX has facilitated over $90 Million in trading between individuals, merchants, and Bitcoin ATMs (BTMs). In addition to being an exchange, CAVIRTEX offers merchant solutions, debit cards and BTM services.<br />Deposit Options include:</p>
+    <ul>
+      <li>In-Person Cash Bill Payments</li>
+      <li>Direct EFT with Canadian Banks</li>
+      <li>Interac Online </li>
+      <li>Online BIll Payment Option</li>
+      <li>Wire Transfer</li>      
+    </ul>
+  coins: [btc, LTC]
 
 quickbt:
   countries: [ca]
