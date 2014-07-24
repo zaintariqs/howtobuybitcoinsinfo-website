@@ -1439,13 +1439,13 @@ BTCTalk:
   countries: [ir, tr, af, iq]
   location: [ir]
   icon: http://blog.btctalk.com/favicon.ico
-  url: https://blog.btctalk.com
+  url: http://blog.btctalk.com
   content:|
     <p>Bitcoin Iran Community:</p>
      <ul>
         <li>Updated news and articles in Farsi</li>
         <li>Discussion Forum</li>
-        <li>Exchange between BTC and IRR easily</li>
+        <li>Exchange between BTC and IRR easily in <a href="https://localbitcoins.com/ad/2494/buy-bitcoins-with-cash-tehran-iran-islamic-republic-of">LocalBitcoins </a></li>
       </ul>
   coins: [btc, ltc]
 
