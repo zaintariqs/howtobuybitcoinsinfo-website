@@ -1,9 +1,11 @@
 <?
 	error_reporting(E_ALL);
 	ini_set('display_errors', '1');
+	session_start();
 
 	require_once("lib/spyc.php");
 	require_once("lib/howtobuy.php");
+	require_once("config.php");
 
 	$currentcountry = isset($_REQUEST['country'])?$_REQUEST['country']:null;
 	if ($currentcountry===null || strlen($currentcountry)!=2){
@@ -11,9 +13,11 @@
 	}
 
 	$countrynames = get_country_data();
-	$serviceData = get_service_data(); 
+	$serviceData  = get_service_data(); 
+	$coins        = get_coin_data();
 
 ?>
+
 <?='<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">'?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -38,7 +42,6 @@
 	<script src="/js/jquery.placeholder.js"></script>
 	<script src="/js/jquery.masonry.js"></script>
 	<script src="/js/wherebuybitcoins.js"></script>
-
 </head>
 <body <?
 	if(isset($currentcountry)){
@@ -72,7 +75,7 @@
 	<div style="float: right">
 		<a href="https://bitcoin.org/en/choose-your-wallet">Get a Wallet</a> | 
 		<a href="http://howtobuycryptocoins.info/">Buy Other Coins</a> | 
-		<a href="mailto:info@howtobuybitcoins.info?body=If possible, please send a pull request. If you're not sure how to do that, feel free to add your update below:%0D%0D- Site name: %0D- URL: %0D- Info (English): %0D- Info (Local language): %0D- Location (2-letter code): %0D- Supported countries (2-letter codes): %0D- Cryptocoins supported (3-letter codes, e.g. BTC): %0D%0DThanks.">Corrections / Updates?</a> | 
+		<a id="sendCorrection" href="#">Corrections / Updates?</a> | 
 		<a href="https://github.com/jonwaller/howtobuybitcoinsinfo-website/blob/master/data/services.yaml">Contribute on Github</a>
 	</div>  
 
@@ -199,6 +202,79 @@
 
 </div>
 
+<div id="update">
+
+	<? if (!DEVELOPMENT && isset($_SESSION['lastUpdate']) && $_SESSION['lastUpdate'] + UPDATEINTERVAL > time()) { ?>
+
+		<h2>You can only send 1 update every 30 minutes. Please try again later</h2>
+
+	<? } else { ?>
+
+		<div>
+			<label for="update-businessName">Business Name:</label>
+			<input name="name" data-form="update" id="update-businessName" type="text" placeholder="Bitcoin, Inc." required>
+		</div>
+
+		<div>
+			<label for="update-icon">Icon (URL):</label>
+			<input name="icon" data-form="update" id="update-icon" type="text" placeholder="http://example.org/favicon.ico" required>
+		</div>
+
+		<div>
+			<label for="update-website">Exchange Location:</label>
+			<select name="location" data-form="update" required>
+				<? generate_country_dropdown($countrynames) ?>
+			</select>
+		</div>
+
+		<div>
+			<label for="update-website">Website:</label>
+			<input name="website" data-form="update" id="update-website" type="text" placeholder="http://example.org" required>
+		</div>
+
+		<div>
+			<label>Description:</label>
+
+			<textarea name="description" id="update-description" rows=5 data-form="update"></textarea>
+
+		</div>
+
+		<label>Available In:</label>
+		<div>
+			<? foreach($countrynames as $code=>$name):?>
+
+				<div class="countrylink">
+					<div data-country="<?= $code ?>" data-formtype="country-code">
+						<span class="countrycode"><abbr title="<?= $name ?>"><?= $code ?></span> 
+					</div>
+				</div>
+
+			<? endforeach; ?>
+		</div>
+		<label>Coins:</label>
+		<div>
+			<? foreach($coins as $code=>$coin):?>
+
+				<div class="coinlink">
+					<div <?php if ($code==='btc') { echo 'class="selectedValue"'; } ?> data-coin="<?= $code ?>" data-formtype="coin-code">
+						<span class="coincode"><?= $code ?></span> 
+						<span class="coinname"><?= $coin ?></span>
+					</div>
+				</div>
+
+			<? endforeach; ?>
+		</div>
+		<div id="sendUpdate" class="button">Send Update</div><div id="cancelUpdate" class="button buttonCancel">Cancel</div>
+
+	<? } ?>
+</div>
+
+<div id="modalBackground">
+	<div id="modalMessage">
+		<h2>Sending update.</h2>
+		Please wait up to 60 seconds and do not refresh this page.
+	</div>
+</div>
 <div id="footer">
 	<div id="footercontent">
 		<h3>You can buy bitcoins in these countries:</h3>
@@ -338,6 +414,7 @@
 
 </script>
 
+<script type="text/javascript" src="/js/update.js">
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js"></script>
 		
 <script type="text/javascript">

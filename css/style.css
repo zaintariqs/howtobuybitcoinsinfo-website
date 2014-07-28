@@ -40,47 +40,74 @@ body, html{
   margin: 0 auto;
 }
 
-#footer .countrylink{
+#update .coinlink,
+#update .countrylink,
+#footer .countrylink {
+
   display: inline-block;
   width: 40px;
   height: 20px;
   font-size: 9px;
   overflow: visible;
-  float: left;
   position: relative;
   text-transform: uppercase;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
 }
 
-#footer .countrylink a{
+#update .coinlink div,
+#update .countrylink div,
+#footer .countrylink a {
   color: #aaa;
-  position: relative;
+  position: absolute;
   display: block;
   text-align: center;
   width: 40px;
   left: 0px;
+  cursor: pointer;
 }
 
-#footer .countrylink a .countryname{  display: none; }
-#footer .countrylink a .countrycode{  display: inline; }
-#footer .countrylink a:hover .countryname{  display: inline; }
-#footer .countrylink a:hover .countrycode{  display: none; }
+#update .coinlink div .coinname,
+#footer .countrylink a .countryname{
+  display: none;
+}
 
+#update .coinlink div .coincode,
+#footer .countrylink a .countrycode{
+  display: inline;
+}
+
+#update .coinlink div:hover .coinname,
+#footer .countrylink a:hover .countryname{
+  display: inline; 
+}
+
+#update .coinlink div:hover .coincode,
+#footer .countrylink a:hover .countrycode{
+  display: none;
+}
+
+#update .coinlink div:hover,
 #footer .countrylink a:hover{
   font-size: 14px;
   background: #eee;
   color: black;
   border: 2px solid white;
   border-radius: 4px;
-  position: relative;
+  position: absolute;
   width: 260px;
   left: -118px;
   top: -16px;
   padding: 5px;
-  -webkit-transition: color 0.5s;
   box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
   z-index: 7;
 }
-
 
 #headingarea{
   background: #485566 url('/img/world.png') top center repeat-x;
@@ -193,20 +220,37 @@ a{
   color: #ddd;
 }
 
+textarea,
+select,
+input {
+  padding: 1px 10px;
+  text-transform: uppercase;
+  border: 1px solid #485566;
+  border-radius: 6px;
+  color: #485566;
+  font-family: 'Ubuntu', Helvetica, Verdana, Arial, sans-serif;
+  background-color: white;
+  margin: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+#update textarea,
+#update select,
+#update input {
+  text-transform: none;
+}
+
 #searchbox{
   width: 390px;
   margin: 15px;
   line-height: 25px;
   font-size: 20px;
-  padding: 1px 10px;
-  text-transform: uppercase;
   text-align: center;
   border: 2px solid #485566;
-  border-radius: 6px;
-  color: #485566;
-  font-family: 'Ubuntu', Helvetica, Verdana, Arial, sans-serif;
-  background-color: white;
-
 }
 
 #searchbox .selected{
@@ -332,6 +376,7 @@ a{
   margin: 4px 1px;
 }
 
+.button,
 .serviceBox a.button{
   background-color: #F7931A;
   border: 1px solid #BE7318;
@@ -343,12 +388,25 @@ a{
   left:0;
   top:-1px;
   -webkit-transition: top 0.2s, text-shadow 0.2s;
+  cursor: pointer;
 }
 
+.button,
 .serviceBox a.button:hover{
   border: 1px solid #BE7318;
   text-shadow: 0 0 2px #000;
   top: 0;
+}
+
+.button {
+  margin: 5px;
+  width: auto;
+  display: inline-block;
+}
+
+.button.buttonCancel {
+  background-color: white;
+  color: black;
 }
 
 .serviceBox a img{
@@ -364,7 +422,7 @@ a{
 .country #headingarea{
   position: relative;
   top: -100px;
-  -webkit-trainsition: top 0.5s;
+  -webkit-transition: top 0.5s;
   height: 350px;
   min-height: 0;
 }
@@ -377,7 +435,66 @@ a{
   display: block;
   position: relative;
   top: -100px;
-  -webkit-trainsition: top 0.5s;
+  -webkit-transition: top 0.5s;
+}
+
+#update {
+  display: none;
+  padding: 10px;
+  position: absolute;
+  width: 800px;
+  left: 50%;
+  margin-left: -400px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  top: 60px;
+  margin-bottom: 60px;
+}
+
+#update label {
+  width: 170px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+#update textarea,
+#update input {
+  width: 570px;
+}
+
+/* CSS hack to make it equal in width as other input elements */
+#update select {
+  width: 593px;
 }
 
 
+#modalBackground {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+  display: none;
+}
+
+#modalMessage {
+  background-color: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -150px;
+  margin-top: -72px;
+}
+
+.selectedValue {
+  background-color: #ACACAC;
+  color: white !important;
+}
