@@ -7,6 +7,10 @@ function get_country_data(){
   return Spyc::YAMLLoad("data/countries-codesorted.yaml");
 }
 
+function get_coin_data() {
+  return Spyc::YAMLLoad("data/coins.yaml");
+}
+
 function generate_box($service,$currentCountryCode){
 
   $locationHtml="";
@@ -36,6 +40,16 @@ function generate_box($service,$currentCountryCode){
     </div>
   </div>
   <?
+}
+
+function generate_country_dropdown($data) {
+
+  foreach($data as $countrycode => $country) {
+
+    echo sprintf('<option value="%s">%s</option>', $countrycode, $country);
+
+  }
+
 }
 
 function generate_country_boxes_local($data, $currentCountryCode){
