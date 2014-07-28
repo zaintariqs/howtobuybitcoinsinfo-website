@@ -1575,3 +1575,12 @@ BuyABitcoin.com.au:
   url: https://www.buyabitcoin.com.au/
   content:  BuyABitcoin.com.au helps Australians purchase Bitcoin easily and quickly, online. 
   coins: [btc]
+
+millibits.in:
+  label: millibits.in
+  countries: [in]
+  location: [in]
+  icon: /favicon.png
+  url: https://millibits.in
+  content: This is a sub-second, user-to-user, bitcoin exchange with no trade limits, full API support for robotic trading, a published cryptographic proof of solvency and two factor authentication.
+  coins: [btc]
