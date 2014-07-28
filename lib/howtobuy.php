@@ -46,7 +46,7 @@ function generate_country_dropdown($data) {
 
   foreach($data as $countrycode => $country) {
 
-    echo sprintf('<option value="%s">%s</option>', $countrycode, $country);
+    echo sprintf('<option value="%s">%s - %s</option>', $countrycode, $countrycode, $country);
 
   }
 
