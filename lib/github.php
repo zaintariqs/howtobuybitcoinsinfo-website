@@ -41,6 +41,19 @@ class Git {
 
 	}
 
+	private function checkResponseForError($ch, $result) {
+
+		$httpStatus = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+		
+		if ($httpStatus > 400) {
+
+			error_log(print_r($result, true));
+			throw new Exception($result->message);
+
+		}
+
+	}
+
 	//Get the file information for data/services.yaml on branchname.
 	public function getFileInformation($branchName) {
 
@@ -82,8 +95,9 @@ class Git {
 		curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");                                                                     
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $obj);                                                                  
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-                                                                                      		 
-		return curl_exec($ch);
+        
+		$result = json_decode(curl_exec($ch));
+        $this->checkResponseForError($ch, $result);
 
 	}
 
@@ -108,8 +122,9 @@ class Git {
 		curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");                                                                     
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $obj);                                                                  
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-                                                                                      		 
-		return curl_exec($ch);
+        
+		$result = json_decode(curl_exec($ch));
+        $this->checkResponseForError($ch, $result);
 
 	}
 
@@ -136,7 +151,8 @@ class Git {
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $obj);                                                                  
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
                                                                                       		 
-		return curl_exec($ch);
+		$result = json_decode(curl_exec($ch));
+        $this->checkResponseForError($ch, $result);
 
 	}
 	
