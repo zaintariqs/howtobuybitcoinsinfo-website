@@ -1351,13 +1351,14 @@ unisend:
 
 bitboat:
   label: BitBoat
-  countries: [fr]
-  location: [fr]
-  icon: /favicon.png
-  url: https://www.bitboat.net/fr
+  countries: [it, fr]
+  location: [it, fr]
+  icon: /res/favicon.png
+  url: https://www.bitboat.net/
   content: |
-    <p>Buy bitcoin in any French Post office with cash, fully automated</p>
-    <p>Acheter vos bitcoin dans tout les bureaux de poste Français en moins d'une heure</p>
+    <p>Buy bitcoin with cash deposit, fully automated.</p>
+    <p>Compra bitcoin pagando in contanti: semplice, veloce e sicuro.</p>
+    <p>Acheter vos bitcoin dans tout les bureaux de poste Français en moins d'une heure.</p>
   coins: [BTC]
 
 coinmotion:
