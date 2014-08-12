@@ -241,14 +241,34 @@ bitnz:
     <p>The simple New Zealand Bitcoin exchange. </p>
   coins: [btc]
 
-bitx:
-  label: BitX
+bitx_ke:
+  label: BitX Kenya
+  countries: [ke]
+  location: [ke]
+  icon: /favicon.png
+  url: https://bitx.co.ke/
+  content:|
+    <p>BitX makes Bitcoin easy. Buy and sell Bitcoin in Kenya on a local trusted exchange.</p>
+  coins: [btc]
+
+bitx_na:
+  label: BitX Namibia
+  countries: [na]
+  location: [na]
+  icon: /favicon.png
+  url: https://bitx.com.na/
+  content:|
+    <p>BitX makes Bitcoin easy. Buy and sell Bitcoin in Namibia on a local trusted exchange.</p>
+  coins: [btc]
+
+bitx_za:
+  label: BitX South Africa
   countries: [za]
   location: [za]
-  icon: https://bitx.co.za/favicon.ico
-  url: https://bitx.co.za
+  icon: /favicon.ico
+  url: https://bitx.co.za/
   content:|
-      <p>Buy, sell, store and spend Bitcoin in South Africa. BitX is the oldest and largest Bitcoin exchange in Africa.</p>
+    <p>Buy, sell, store and spend Bitcoin in South Africa. BitX is the oldest and largest Bitcoin exchange in Africa.</p>
   coins: [btc]
 
 coined:
@@ -1278,16 +1298,6 @@ cashintocoins:
   url: https://cashintocoins.com/
   content: |
     Deposit Cash, Get Bitcoins - The United States' largest cash for bitcoin service.
-  coins: [btc]
-
-bitxnamibia:
-  label: BitX Namibia
-  countries: [na]
-  location: [na]
-  icon: /favicon.png
-  url: https://bitx.com.na/
-  content: |
-    BitX makes Bitcoin easy. Buy and Sell Bitcoins in Namibia on a local trusted exchange.
   coins: [btc]
 
 btcxindia:
