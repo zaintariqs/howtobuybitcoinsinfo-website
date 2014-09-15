@@ -1584,3 +1584,12 @@ ZipZap:
   url: https://zipzapinc.com/
   content: Buy Bitcoins form ZipZap with cash, bank transfer or wire transfer. Largest Network. Fast Delivery, Low Price. 
   coins: [btc]
+
+XBT:
+  label: XBT.ph
+  countries: [ph]
+  location: [ph]
+  icon: http://xbt.ph/favicon.ico
+  url: http://xbt.ph
+  content: Buy Bitcoin directly from Rebit.ph and SCI 
+  coins: [btc]
