@@ -339,16 +339,6 @@ bitcoincomes:
     <p>Compra y vende Bitcoins con comodidad a traves de transferencia bancaria.</p>
   coins: [btc]
 
-spendbitcoins:
-  label: SpendBitcoins.com
-  icon: https://www.spendbitcoins.com/media/css/images/favicon.ico
-  location: [au]
-  countries: [au]
-  url: https://www.spendbitcoins.com/
-  content: |
-      <p>Buy bitcoin in Australia by over-the-counter transfer.</p>
-  coins: [btc]
-
 btcmarkets:
   label: BtcMarkets.net
   countries: [au]
@@ -356,16 +346,6 @@ btcmarkets:
   icon: /favicon.png
   url: https://www.btcmarkets.net
   content: <p>BTC Markets is Australia's first and only full service trading platform for buyers and sellers to exchange with one another. Our exchange fees are the lowest in Australia, from as low as 0.60%</p>
-  coins: [btc]
-
-bitcointrader:
-  label: Bitcointrader
-  icon: /favicon.png
-  location: [au]
-  countries: [au]
-  url: https://www.bitcointrader.com.au
-  content: |
-      <p>Buy bitcoins with cash deposit in Australia. Easiest way to buy & sell bitcoins in Australia.</p>
   coins: [btc]
 
 fyb-se:
@@ -409,16 +389,6 @@ coinjarfiller:
   url: http://www.coinjar.io/filler
   content: |
       <p>CoinJar Filler™ aims to be the best and cheapest way to buy and sell Bitcoin. We charge only 2% for buying and 1.1% for selling. Get Bitcoin in your wallet or cash in your bank account quickly.</p>
-  coins: [btc]
-
-bitxoin:
-  label: bitXoin
-  icon: /favicon.png
-  location: [au]
-  countries: [au]
-  url: https://www.bitXoin.com
-  content: |
-      <p>Using bitXoin makes buying bitcoins using cash as easy as 1 - 2 - 3. Forget long wait-times and non-responsive transacting by using our easy to use brokerage platform, and making cash deposits over the counter.</p> 
   coins: [btc]
 
 bittylicious:
@@ -547,26 +517,6 @@ btradeaustralia:
   icon: /favicon.png
   url: https://www.btradeaustralia.com/
   content: Australian exchange.
-  coins: [btc]
-
-buybitcoinaustralia:
-  label: BuyBitcoinAustralia
-  countries: [au]
-  location: [au]
-  icon: /favicon.png
-  url: http://buybitcoinaustralia.com.au
-  content: |
-      <p>Australian exchange.</p>
-  coins: [btc]
-
-bitcoin4australia:
-  label: Bitcoin4Australia
-  countries: [au]
-  location: [au]
-  icon: /favicon.png
-  url: http://www.Bitcoin4Australia.com
-  content: |
-      <p>Australian Bitcoin Exchange supplying Bitcoin for cash over the counter deposit at the Major Australian Banks.</p>
   coins: [btc]
 
 forepost:
