@@ -30,6 +30,7 @@ bitcoin24:
       </p>
   coins: [btc]
 
+
 bitstamp:
   label: BitStamp.net
   icon: https://www.bitstamp.net/s/icons/favicon.ico
@@ -1320,6 +1321,15 @@ bitcoinchange:
   content: Exchange in Belize.
   coins: [BTC]
 
+Crxzone:
+  label: crxzone
+  countries: [sg]
+  location: [sg]
+  icon: /favicon.png
+  url: https://www.crxzone.com
+  content: Crypto currency (bitcoin and litecoin) exchange registered and operated in singapore catering for global customers through Fiat Deposit and other digital currency payment systems. Trading Multiple Pair Bitcoin ( BTC/USD, BTC/EUR, BTC/SGD, BTC/LTC) and Litecoin ( LTC/USD, LTC/EUR, LTC/SGD)
+  coins: [BTC]
+  
 itbit:
   label: itBit
   countries: [sg]
