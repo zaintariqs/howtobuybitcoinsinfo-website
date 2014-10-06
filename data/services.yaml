@@ -1584,3 +1584,11 @@ ZipZap:
   url: https://zipzapinc.com/
   content: Buy Bitcoins form ZipZap with cash, bank transfer or wire transfer. Largest Network. Fast Delivery, Low Price. 
   coins: [btc]
++CRXzone:
++ label: CRXzone
++ countries: [sg, in, ml, ar, at, be, br, cl, hr, cy, cz, dk, ee, fi, fr, de, gr, hu, ie, is, it, lv, li, lt, lu, mt, mx, mc, nl, no, pe, pl, pt, ro, sk, es, se, ch, gb, us, uy]
++ location: [SG]
++ icon: https://crxzone.com/favicon.ico
++ url: https://crxzone.com/
++ content: Buy Bitcoins from CRXzone Singapore registered and Operated business with cash, bank transfer or wire transfer, Digtal currencies like egopay, okpay, perfect money etc. Fast Delivery, Low Price, 7 days a week support with office in central business district.
++ coins: [btc]
