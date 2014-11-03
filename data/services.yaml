@@ -1110,11 +1110,11 @@ bitcoinsforsale:
 
 clevercoin:
   label: CleverCoin
-  countries: [nl]
+  countries: [at, be, bg, cy, cz, dk, fi, fr, de, gr, hu, is, ie, it, lv, li, lt, lu, mt, nl, no, pl, pt, ro, bl, sk, si, es, se, ch, uk]
   location: [nl]
-  icon: http://www.clevercoin.net/favicon.ico
-  url: http://www.clevercoin.net/
-  content:  CleverCoin is de nieuwe Nederlandse Bitcoin Exchange.
+  icon: https://www.clevercoin.com/favicon.ico
+  url: https://www.clevercoin.com/
+  content:  CleverCoin is an easy to use Bitcoin exchange with support for market and limited orders. Payment methods: SEPA and iDEAL. Euro funds are held and processed by a European Central bank certified payment institution.
   coins: [btc]
 
 bitcoinbrokerssouthafrica:
