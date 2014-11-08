@@ -1568,3 +1568,12 @@ ZipZap:
   url: https://zipzapinc.com/
   content: Buy Bitcoins form ZipZap with cash, bank transfer or wire transfer. Largest Network. Fast Delivery, Low Price. 
   coins: [btc]
+ZipZapInc.com:
+  icon: http://zipzapinc.com/favicon.ico
+  Label: Zip Zap Inc
+  url: http://zipzapinc.com/
+  content: ZipZap is a global payment network enabling consumers to buy digital currencies like Bitcoin.
+  coins: [btc]
+  location: [us]
+  countries: [ar, at, be, bg, br, cl, co, hr, cy, cz, dk, ee, fi, fr, de, gr, hu, is, ie, it, lv, li, lt, lu, mt, mx, mc, nl, no, pe, ph, pl, pt, ro, sm, sk, sl, es, se, ch, gb, us, uy]
+  
