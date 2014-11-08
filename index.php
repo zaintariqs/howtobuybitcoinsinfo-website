@@ -107,12 +107,14 @@
 				<span class="titleBox jp">ご注意ください。</span>
 				<span class="titleBox fr">Warning: Please be careful with your money.</span>
 				<span class="titleBox it">Attenzione: Si prega di fare attenzione ai propri soldi.</span>
+				<span class="titleBox ru">Внимание: Пожалуйста будьте внимательными со своими деньгами.</span>
 				<img style="float:right;padding:2px" src="img/miniflags/us.png" onclick="showLang('en')" title="English" /> 
 				<img style="float:right;padding:2px" src="img/miniflags/cn.png" onclick="showLang('cn')" title="中文" /> 
 				<img style="float:right;padding:2px" src="img/miniflags/es.png" onclick="showLang('es')" title="Español" /> 
 				<img style="float:right;padding:2px" src="img/miniflags/jp.png" onclick="showLang('jp')" title="日本語" /> 
 				<img style="float:right;padding:2px" src="img/miniflags/fr.png" onclick="showLang('fr')" title="Français" />
 				<img style="float:right;padding:2px" src="img/miniflags/it.png" onclick="showLang('it')" title="Italiano" />
+				<img style="float:right;padding:2px" src="img/miniflags/ru.png" onclick="showLang('ru')" title="Русский" />
 			</h3>
 			<div class="box-content">
 				<p>
@@ -161,6 +163,12 @@
 						Lo scambio o l'immagazzinamento di una notevole quantità di fondi con terzi non è consigliato.
 						<br/><br/>
 						I servizi Bitcoin non sono altamente regolati quindi un servizio può continuare a funzionare anche se è opinione diffusa che sia insicuro o disonesto. Inoltre, le pagine web che li raccomandano (come questa) potrebbero non essere aggiornate regolarmente. (Tuttavia, detto questo, il sito è open-source, e si cerca di rispondere rapidamente alle e-mail.)
+					</small>
+					<small class="langBox ru">
+						Отправляя деньги на биржу, вы доверяете что её оператор не украдет их и что сайт надежен и безопасен.<br/><br/>
+						Рекомендуем получить рельные данные оператора и убедиться что этого будет достаточно для защиты ваших прав.<br/>
+						Обмен и хранение значительных сумм с помощью третьих лиц не рекомендуется.<br/><br/>
+						Пока биткоин не особенно регулируется некоторые сайты могут продолжать работать даже после того как стало известно что они не безопасны или не честны. Также сайты, рекомендующие их (как этот) могут обновляться не регулярно. (Хотя, <a href="https://github.com/jonwaller/howtobuybitcoinsinfo-website">исходный код</a> этого сайта открыт, а также вы можете писать нам на <a href="mailto:info@howtobuybitcoins.info">почту</a>.)
 					</small>
 				</p>
 			</div>
@@ -316,6 +324,7 @@
 		<a href="/jp.html"><img src="img/miniflags/jp.png" title="日本" /></a>
 		<a href="/fr.html"><img src="img/miniflags/fr.png" title="France" /></a>
 		<a href="/it.html"><img src="img/miniflags/it.png" title="Italia" /></a>
+		<a href="/ru.html"><img src="img/miniflags/ru.png" title="Россия" /></a>
 	<?}?>
 </div>
 
@@ -361,6 +370,8 @@
 			$(".langBox.fr").show();
 		}else if (currentCountryCode=="it") {
 			$(".langBox.it").show();
+		}else if (currentCountryCode=="it") {
+			$(".langBox.ru").show();
 		}else{      
 			$(".langBox.en").show();
 		}
@@ -375,6 +386,8 @@
 			$(".titleBox.fr").show();
 		}else if (currentCountryCode=="it") {
 			$(".titleBox.it").show();
+		}else if (currentCountryCode=="ru") {
+			$(".titleBox.ru").show();
 		}else{      
 			$(".titleBox.en").show();
 		}
