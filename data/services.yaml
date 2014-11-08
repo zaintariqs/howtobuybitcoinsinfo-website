@@ -1507,8 +1507,9 @@ Cryptopay:
   label: Cryptopay
   countries: [uk]
   location: [uk]
-  url: https://crypotopay.me
-  content: <p>Fast deposits and payoviruts. A lot of liquidity, integrated wallet and merchant processing.</p>
+  url: https://cryptopay.me
+  content: |
+  <p>Fast deposits and payouts. A lot of liquidity, integrated wallet and merchant processing.</p>
   <ul>
   <li>Free UK deposits</li>
   <li>Free SEPA deposit</li>
@@ -1566,13 +1567,13 @@ kitiwa:
       <p>Buy bitcoins in Ghana and Nigeria with Mobile Money or Bank Transfers. This is the easiest and fastest way to buy Bitcoins in Ghana and Nigeria.</p>
   coins: [btc]
 
-BuyABitcoin.com.au:
+BuyABitcoincomau:
   label: BuyABitcoin.com.au
   countries: [au]
   location: [au]
   icon: https://buyabitcoin.com.au/wp-content/uploads/2014/07/favicon.png
   url: https://www.buyabitcoin.com.au/
-  content:  BuyABitcoin.com.au helps Australians purchase Bitcoin easily and quickly, online. 
+  content:  BuyABitcoin.com.au helps Australians purchase Bitcoin easily and quickly online. 
   coins: [btc]
 
 ZipZap:
