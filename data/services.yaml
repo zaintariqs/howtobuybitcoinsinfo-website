@@ -1625,6 +1625,14 @@ XBT:
   content: Buy Bitcoin directly from Rebit.ph and SCI 
   coins: [btc]
 
+millibits.in:
+  label: millibits.in
+  countries: [in]
+  location: [in]
+  icon: /favicon.png
+  url: https://millibits.in
+  content: This is a sub-second, user-to-user, bitcoin exchange with no trade limits, full API support for robotic trading, a published cryptographic proof of solvency and two factor authentication.
+
 AntiDomingo:
   label: AntiDomingo - Primer cajero automático expendedor de bitcoins en Argentina
   countries: [ar]
