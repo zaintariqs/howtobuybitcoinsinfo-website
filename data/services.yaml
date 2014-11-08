@@ -86,6 +86,16 @@ expresscoin:
       <p>Fast, easy and safe way to buy Bitcoin, Dogecoin, Litecoin and other alt coins using your debit card.</p>
   coins: [btc]
 
+BTC Guys:
+  label:BTC Guys LLC
+  icon: http://www.btcguys.us/uploads/2/8/9/0/28903049/244012578604682008/favpreview.gif
+  countries: [us, ca, uk]
+  location: [us, ca, uk]
+  url: http://www.btcguys.us
+  content:|
+          <p>Buy Bitcoin fast and easy. We are based in New York. There are no sign up forms required/no delays. Our rates and exchange rate is competitive.</p>
+  coins: [btc]        
+
 brawker:
   label: Brawker
   icon: https://scontent-a-fra.xx.fbcdn.net/hphotos-ash3/t1.0-9/1525336_268324699990998_538724719_n.png
