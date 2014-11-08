@@ -1615,6 +1615,15 @@ CRXzone:
   content: Buy Bitcoins from CRXzone Singapore registered and Operated business with cash, bank transfer or wire transfer, Digtal currencies like egopay, okpay, perfect money etc. Fast Delivery, Low Price, 7 days a week support with office in central business district.
   coins: [btc]
 
+XBT:
+  label: XBT.ph
+  countries: [ph]
+  location: [ph]
+  icon: http://xbt.ph/favicon.ico
+  url: http://xbt.ph
+  content: Buy Bitcoin directly from Rebit.ph and SCI 
+  coins: [btc]
+
 coinscoth:
   icon: https://coins.co.th/static/img/favicon.png
   label: CoinsTH
