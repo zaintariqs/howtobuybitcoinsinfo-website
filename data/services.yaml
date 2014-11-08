@@ -388,7 +388,7 @@ btcmarkets:
   location: [au]
   icon: /favicon.png
   url: https://www.btcmarkets.net
-  content: <p>BTC Markets is Australia's first and only full service trading platform for buyers and sellers to exchange with one another. Our exchange fees are the lowest in Australia, from as low as 0.60%</p>
+  content: <p>BTC Markets is Australia's first and only full service trading platform for buyers and sellers to exchange with one another. Our exchange fees are the lowest in Australia, from as low as 0.10%. International traders welcome.</p>
   coins: [btc]
 
 fyb-se:
