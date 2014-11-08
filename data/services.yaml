@@ -1624,6 +1624,17 @@ XBT:
   content: Buy Bitcoin directly from Rebit.ph and SCI 
   coins: [btc]
 
+AntiDomingo:
+  label: AntiDomingo - Primer cajero automático expendedor de bitcoins en Argentina
+  countries: [ar]
+  location: [ar]
+  icon: /favicon.png
+  url: https://www.facebook.com/AntiDomingo
+  content: |
+    <p>AntiDomingo es un restaurant en Buenos Aires, Argentina en el que encontrarás el primer ATM Bitcoin instalado en el país</p>
+    <p>Podrás comprar bitcoins insertando pesos argentinos</p>
+  coins: [BTC]
+
 coinscoth:
   icon: https://coins.co.th/static/img/favicon.png
   label: CoinsTH
