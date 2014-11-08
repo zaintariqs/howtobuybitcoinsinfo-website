@@ -170,8 +170,9 @@ cointouch:
   icon: http://www.cointouch.com/assets/images/favicon.png
   label: CoinTouch
   countries: [be, bg, cz, dk, de, ee, ie, el, es, fr, it, cy, lv, lt, lu, hu, mt, nl, at, pl, pt, ro, si, sk, fi, se, uk]
+  location: [uk]
   url: http://www.cointouch.com/
-  content: Find friends of friends that trade crypto currency
+  content: Find friends of friends that trade crypto currency. Deal directly with people you trust, fee-free. One-click Google+ and Facebook signup. All major currencies and altcoins supported.
   coins: [AUR, BTC, DOGE, LTC, MAX, NMC, NXT, PPC, WDC, XCP]
 
 vircurex:
