@@ -99,20 +99,29 @@
 
 			var json;
 			try {
+
 				var json = JSON.parse(data);
+
 			} catch (e) {
 
 				alert('Something went wrong. Please try again.');
 				modalWindow.hide();
+				return;
 
 			}
 			
+			if (json.error) {
+
+				alert('Something went wrong. Please try again.');
+				modalWindow.hide();
+				return;
+
+			}
+
 			modalWindow.hide();
 			updateForm.hide();
 			
 			alert('Succesfully submitted! We will process your request shortly.');
-		
-
 
 		});	
 
