@@ -1687,3 +1687,11 @@ anycoindirect:
   url: https://anycoindirect.eu
   content: At AnycoinDirect.eu you can buy bitcoins and altcoins instantly using the European payment methods; iDEAL (Holland) Bancontact (Belgium) and Sofort (rest of Europe) .
   coins:[btc, ltc, bc, zet, nmc, ftc, doge, drk, ppc]
+
+coincorner:
+  label: CoinCorner
+  countries: [uk]
+  location: [im]
+  url: https://www.coincorner.com
+  content: UK-focused Bitcoin Exchange only dealing with GBP, offering competitive fees, UK banking and Faster Payments for withdrawals.
+  coins: [btc, ltc, doge]
