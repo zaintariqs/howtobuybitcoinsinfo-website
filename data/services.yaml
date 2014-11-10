@@ -1695,3 +1695,12 @@ coincorner:
   url: https://www.coincorner.com
   content: UK-focused Bitcoin Exchange only dealing with GBP, offering competitive fees, UK banking and Faster Payments for withdrawals.
   coins: [btc, ltc, doge]
+
+buysellbitcon.eu:
+  label: BuySell Bitcoin
+  countries: [fi, ee, lv, pl, cz, sk]
+  location: [pa]
+  url: http://www.buysellbitcoin.eu
+  content: We offer to our clients opportunity to pay via Instant bank transfers. Very easy and quicky, no registration.
+  coins: [btc]
+  
