@@ -1134,7 +1134,8 @@ clevercoin:
   location: [nl]
   icon: https://www.clevercoin.com/favicon.ico
   url: https://www.clevercoin.com/
-  content:  CleverCoin is an easy to use Bitcoin exchange with support for market and limited orders. Payment methods: SEPA and iDEAL. Euro funds are held and processed by a European Central bank certified payment institution.
+  content: CleverCoin is an easy to use Bitcoin exchange with support for market and limited orders. 
+  Payment methods: SEPA and iDEAL. Euro funds are held and processed by a European Central bank certified payment institution.
   coins: [btc]
 
 bitcoinbrokerssouthafrica:
@@ -1672,10 +1673,17 @@ coinscoth:
 
 ZipZapInc.com:
   icon: http://zipzapinc.com/favicon.ico
-  Label: Zip Zap Inc
+  label: Zip Zap Inc
   url: http://zipzapinc.com/
   content: ZipZap is a global payment network enabling consumers to buy digital currencies like Bitcoin.
   coins: [btc]
   location: [us]
   countries: [ar, at, be, bg, br, cl, co, hr, cy, cz, dk, ee, fi, fr, de, gr, hu, is, ie, it, lv, li, lt, lu, mt, mx, mc, nl, no, pe, ph, pl, pt, ro, sm, sk, sl, es, se, ch, gb, us, uy]
   
+anycoindirect:
+  label: AnycoinDirect.eu
+  countries: [nl, de, fr, pl, be, at, ch, it, hu]
+  location: [nl]
+  url: https://anycoindirect.eu
+  content: At AnycoinDirect.eu you can buy bitcoins and altcoins instantly using the European payment methods; iDEAL (Holland) Bancontact (Belgium) and Sofort (rest of Europe) .
+  coins:[btc, ltc, bc, zet, nmc, ftc, doge, drk, ppc]
