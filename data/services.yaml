@@ -107,6 +107,22 @@ celery:
       <p>Easy and secure way to buy & sell Bitcoin, Litecoin & Dogecoin. Start by linking a US bank account. Based in New York, NY.</p>
       <p>Twitter: <a href="https://twitter.com/btxtrader">@gocelery</></p>
   coins: [btc, ltc, Doge]
+  
+trucoin:
+  icon: https://www.trucoin.com/favicon.ico
+  label: trucoin
+  countries: [us]
+  location: [us]
+  url: http://trucoin.com/
+  content: |
+    <p>The fastest way to buy Bitcoin.
+    <ul>
+    <li>Get Bitcoin in less than two minutes.</li>
+    <li>Pay using your debit or credit card.</li>
+    <li>Both Visa and MasterCard are accepted.</li>
+    </ul>
+    </p>
+coins: [btc]
 
 coincafe:
   icon: https://coincafe.com/img/favicon.png
