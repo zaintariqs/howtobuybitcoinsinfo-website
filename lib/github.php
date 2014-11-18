@@ -33,7 +33,7 @@ class Git {
 
 		$ch = curl_init($url);
 		array_push($headers, 'User-Agent: Localbitcoin');
-		curl_setopt($ch, CURLOPT_USERPWD, APITOKEN . ":x-oauth-basic");                                      
+		curl_setopt($ch, CURLOPT_USERPWD, APITOKEN . ":x-oauth-basic");
 		curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
@@ -44,7 +44,7 @@ class Git {
 	private function checkResponseForError($ch, $result) {
 
 		$httpStatus = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-		
+
 		if ($httpStatus > 400) {
 
 			error_log(print_r($result, true));
@@ -83,19 +83,19 @@ class Git {
 			"sha"     => $sha,
 			"branch"  => $branchName
 		);
-		
+
 		$obj     = json_encode($obj);
 		$headers = array(
-		    'Content-Type: application/json',                                                                                
+		    'Content-Type: application/json',
 		    'Content-Length: ' . strlen($obj)
 		);
 
 		$ch      =  $this->makeRequestMethod($url, $headers);
 
-		curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");                                                                     
-		curl_setopt($ch, CURLOPT_POSTFIELDS, $obj);                                                                  
+		curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
+		curl_setopt($ch, CURLOPT_POSTFIELDS, $obj);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        
+
 		$result = json_decode(curl_exec($ch));
         $this->checkResponseForError($ch, $result);
 
@@ -107,22 +107,22 @@ class Git {
 		$url = $this->constructBranchURL();
 		$obj = array(
 			'ref' => 'refs/heads/' . $branchName,
-			'sha' => 'dcfd09d7375ba667aa3be6bfc2b27cf6211a97e7'
+			'sha' => '6c4ae6ceb1df386a52c920d795ee14e73c514335'
 		);
-	
+
 		$obj = json_encode($obj);
 
 		$headers = array(
-		    'Content-Type: application/json',                                                                                
+		    'Content-Type: application/json',
 		    'Content-Length: ' . strlen($obj)
 		);
 
 		$ch      =  $this->makeRequestMethod($url, $headers);
 
-		curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");                                                                     
-		curl_setopt($ch, CURLOPT_POSTFIELDS, $obj);                                                                  
+		curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+		curl_setopt($ch, CURLOPT_POSTFIELDS, $obj);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        
+
 		$result = json_decode(curl_exec($ch));
         $this->checkResponseForError($ch, $result);
 
@@ -141,21 +141,21 @@ class Git {
 		$obj = json_encode($obj);
 
 		$headers = array(
-		    'Content-Type: application/json',                                                                                
+		    'Content-Type: application/json',
 		    'Content-Length: ' . strlen($obj)
 		);
 
 		$ch      =  $this->makeRequestMethod($url, $headers);
 
-		curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");                                                                     
-		curl_setopt($ch, CURLOPT_POSTFIELDS, $obj);                                                                  
+		curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+		curl_setopt($ch, CURLOPT_POSTFIELDS, $obj);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-                                                                                      		 
+
 		$result = json_decode(curl_exec($ch));
         $this->checkResponseForError($ch, $result);
 
 	}
-	
+
 
 }
 
