@@ -4,12 +4,13 @@ quickbitcoin:
   location: [uk]
   icon: /favicon.png
   url: https://quickbitcoin.co.uk/
-  content: <p>Fastest way to buy bitcoins in the uk!
-    <ul>
-      <li>Average transaction time is under 10 minutes.</li>
-      <li>Pay by UK bank transfer</li>
-    </ul>
-  </p>
+  content: |
+     <p>Fastest way to buy bitcoins in the uk:
+        <ul>
+          <li>Average transaction time is under 10 minutes.</li>
+          <li>Pay by UK bank transfer</li>
+        </ul>
+      </p>
   coins: [btc]
 
 cointrader:
