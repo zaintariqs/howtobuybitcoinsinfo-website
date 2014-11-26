@@ -73,6 +73,7 @@
 
 <div id="header">
 	<div style="float: right">
+		<a href="https://luxstack.com/developers">Build Bitcoin Applications</a> | 
 		<a href="https://bitcoin.org/en/choose-your-wallet">Get a Wallet</a> | 
 		<a href="http://howtobuycryptocoins.info/">Buy Other Coins</a> | 
 		<a id="sendCorrection" href="#">Corrections / Updates?</a> | 
@@ -174,6 +175,24 @@
 			</div>
 		</div>
 	</div>
+
+		<div class="resultsmasonry">
+		
+  <div class="warningBox">
+      <a href="http://luxstack.com/developers" target="_blank">
+        <h3 class="box-title">
+            Sponsored by LUXSTACK
+        </h3>
+      </a>
+    <div class="box-content">
+      <p>LUXSTACK is the fastest way to build bitcoin applications. Plug in our powerful SDKs to supercharge your bitcoin toolbox.</p>
+    </div>
+    <div style="text-align:right">
+      <a class="button" href="http://luxstack.com/developers" target="_blank">Build apps!</a>
+    </div>
+  </div>
+
+		</div>
 
 	<?if (isset($currentcountry)){?>
 
@@ -307,7 +326,7 @@
 					style="border:0;width:16px;height:16px;vertical-align: top;"
 				/>
 			</a>
-			<a href="http://bitcoineast.com">This is a BitcoinEAST project</a> - <a href="http://howtobuycryptocoins.info/">How to buy cryptocoins / altcoins</a>
+			Sponsored by <a href="http://luxstack.com/developers">LUXSTACK</a> - The fastest way to build Bitcoin applications on any platform. 
 		</div>
 
 	</div>
