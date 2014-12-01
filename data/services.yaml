@@ -1255,13 +1255,14 @@ btcsm:
 
 coinclutch:
   label: CoinClutch
-  countries: [au, ca]
+  countries: [ca]
   location: [ca]
   icon: https://coinclutch.com/favicon.ico
   url: https://coinclutch.com/
-  content: | <p>Your Online Concierge For Purchasing Cryptocurrency!</p>
-    <p>Instantly purchase Bitcoin, Litecoin, Dogecoin and many more. All simply and easily with a bank account.</p>
-  coins: [btc,ltc,ppc,doge,xpm,qrk,ftc]
+  content: |
+	<p>CoinClutch Is Your Online Concierge For Purchasing Cryptocurrency!</p>
+    <p>Quickly purchase Bitcoin, Litecoin, Dogecoin with CoinClutch. All simply and easily with a bank account.</p>
+  coins: [btc,ltc,ppc,doge]
 
 HardBlock:
   label: HardBlock
