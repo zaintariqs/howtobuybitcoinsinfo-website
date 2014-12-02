@@ -1260,7 +1260,7 @@ coinclutch:
   icon: https://coinclutch.com/favicon.ico
   url: https://coinclutch.com/
   content: |
-	<p>CoinClutch Is Your Online Concierge For Purchasing Cryptocurrency!</p>
+    <p>CoinClutch Is Your Online Concierge For Purchasing Cryptocurrency!</p>
     <p>Quickly purchase Bitcoin, Litecoin, Dogecoin with CoinClutch. All simply and easily with a bank account.</p>
   coins: [btc,ltc,ppc,doge]
 
