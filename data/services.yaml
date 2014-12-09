@@ -84,15 +84,6 @@ coinspot:
       <p>Free to Sell, Easy to Buy. Bitcoin, Litecion, Dogecoin and more direct for AUD</p>
   coins: [btc, ltc, doge, ppc, qrk, moon, ftc, nmc, max, wdc, lot, xpm]
 
-cointrader:
-  label: Cointrader.net
-  icon: https://www.cointrader.net/favicon.ico.png
-  countries: [us, ru, nl, fi, pl, cz, it, si, li, es, be, bg, cz, dk, de, ee, ie, el, es, fr, it, cy, lv, lt, lu, hu, mt, nl, at, pl, pt, ro, si, sk, fi, se, uk]
-  url: https://www.cointrader.net/
-  content: |
-      <p>Buy and sell bitcoins through a simple exchange. This is the cheapest way to trade bitcoins.</p>
-  coins: [btc]
-
 bitcoin24:
   label: Bitcoin-24
   icon: https://bitcoin-24.com/img/favicon.png
