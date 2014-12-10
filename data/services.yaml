@@ -40,7 +40,7 @@ cointrader:
   icon: https://www.cointrader.net/favicon.ico.png
   countries: [us, ru, nl, fi, pl, cz, it, si, li, es, be, bg, cz, dk, de, ee, ie, el, es, fr, it, cy, lv, lt, lu, hu, mt, nl, at, pl, pt, ro, si, sk, fi, se, uk]
   location: [ca,uk]
-  url: https://www.cointrader.net/?aff=10004297
+  url: http://bit.ly/1wdFDQU
   content:|
       <p>Buy and sell bitcoins through a simple exchange with competitive rates. This is the cheapest way to trade bitcoins.</p>
   coins: [btc]
