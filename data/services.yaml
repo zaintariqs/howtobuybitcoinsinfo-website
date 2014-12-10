@@ -1561,7 +1561,7 @@ CashCoin:
   label: CashCoin
   countries: [ar, at, be, br, cl, cn, co, hr, cy, cz, dk, ee, fi, fr, de, gr, hu, ie, is, it, lv, li, lt, lu, mt, mx, mc, nl, no, pe, pl, pt, ro, sk, es, se, ch, tr, gb, us, uy]
   location: [us]
-  icon: https://zipzapinc.com/favicon.ico
+  icon: https://cashcoin.io/favicon.ico
   url: https://cashcoin.io/
   content: Buy Bitcoins from CashCoin with cash, bank transfer or PayPal. Largest Network. Fast Delivery, Low Price.
   coins: [btc]
