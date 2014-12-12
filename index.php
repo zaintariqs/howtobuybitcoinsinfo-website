@@ -73,10 +73,11 @@
 
 <div id="header">
 	<div style="float: right">
-		<a href="https://luxstack.com/developers">Build Bitcoin Applications</a> | 
 		<a href="https://bitcoin.org/en/choose-your-wallet">Get a Wallet</a> | 
-		<a href="http://howtobuycryptocoins.info/">Buy Other Coins</a> | 
-		<a id="sendCorrection" href="#">Corrections / Updates?</a> | 
+		<a href="https://luxstack.com/developers">Build Bitcoin Apps</a> | 
+		<a href="http://howtobuycryptocoins.info/">Buy Altcoins</a> | 
+		<a href="https://www.coinbase.com/jonwaller">Donate To Author</a> | 
+		<a id="sendCorrection" href="#">Add An Exchange</a> | 
 		<a href="https://github.com/jonwaller/howtobuybitcoinsinfo-website/blob/master/data/services.yaml">Contribute on Github</a>
 	</div>  
 
