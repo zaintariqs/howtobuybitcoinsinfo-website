@@ -1725,12 +1725,13 @@ uk24ex:
   content: Buy ukash with Bitcoin, Perfectmoney, Webmoney and Paypal.  
   coins: [btc]
   
-coincove:
-  label: Coincove.co
+Volabit:
+  label: Volabit
   countries: [mx]
   location: [mx]
-  url: https://coincove.co/ 
-  content: The easiest way to buy and sell Bitcoins in Mexico.
+  icon: https://www.volabit.com/favicon.ico
+  url: https://www.volabit.com/ 
+  content: The easiest and fastest way to buy and sell Bitcoins in Mexico. Load your account with bank transfers and cash deposits at OXXO & 7-Eleven.
   coins: [btc]
 
 coinmotion:
