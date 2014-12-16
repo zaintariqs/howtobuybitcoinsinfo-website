@@ -1837,3 +1837,13 @@ btcontrust:
   url: http://www.btcontrust.com/
   content: The easiest way, secure and confidential and negotiate to buy cryptomonete.  
   coins: [btc]
+  
+Harborly:
+  label: Harborly
+  countries: [ca]
+  location: [ca]
+  icon: https://s3.amazonaws.com/harborly/favicon/favicon-main.png
+  url: https://harbor.ly
+  content: |
+    <p>Buy & Sell Bitcoin and Litecoin in Canada.</p>
+  coins: [btc, ltc]
