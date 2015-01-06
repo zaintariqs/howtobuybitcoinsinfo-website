@@ -1620,6 +1620,20 @@ coinscoth:
   countries: [th]
   location: [th]
 
+safello:
+  label: Safello.com
+  countries: [at, be, es, hr, cy, cz, dk, ee, fi, fr, gf, de, gi, gr, hu, is, ie, it, lv, li, lt, lu, mt, mq, yt, mc, nl, no, pl, pt, re, ro, bl, mf, pm, sk, si, es, se, ch, uk]
+  location: [se, uk]
+  icon: https://safello.com/favicon.ico
+  url: https://safello.com/
+  content: |
+     <p>Safello is the leading Bitcoin broker in Europe.</p>
+     <p>Safely buy and sell bitcions with local payment methods.</p>
+     <p>We support local bank transfers in the UK</p>
+     <p>(Faster payments, BACS, CHAPS) SEPA, iDeal and many other payment methods</p>
+     <p>Try us out today!</p>
+  coins: [btc]
+
 anycoindirect:
   label: AnycoinDirect.eu
   countries: [nl, de, fr, pl, be, at, ch, it, hu]
