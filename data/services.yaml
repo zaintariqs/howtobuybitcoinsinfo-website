@@ -132,7 +132,7 @@ trucoin:
     <li>Pay using your debit or credit card.</li>
     <li>Both Visa and MasterCard are accepted.</li>
     </ul>
-    </p>
+    </p>ri
 coins: [btc]
 
 
@@ -1476,6 +1476,16 @@ BitBay:
   url: http://bitbay.net/
   content: <p>Bitcoin and Litecoin exchange with 24/7 email and phone support</p>
   coins: [btc, ltc]
+
+SatoshiTango:
+  label: SatoshiTango - Bitcoin Nunca Fue Tan Fácil
+  countries: [ar]
+  location: [ar]
+  url: https://www.satoshitango.com/
+  content: |
+    <p>Comprá y vendé bitcoins en pesos argentinos de forma rápida y segura.</p>
+  coins: [BTC]
+
 
 Ripio:
   label: Ripio - Comprar Bitcoin Facil
