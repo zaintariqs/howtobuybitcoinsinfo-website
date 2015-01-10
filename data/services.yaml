@@ -38,11 +38,13 @@ quickbitcoin:
 cointrader:
   label: Cointrader.net
   icon: https://www.cointrader.net/favicon.ico.png
-  countries: [us, ru, nl, fi, pl, cz, it, si, li, es, be, bg, cz, dk, de, ee, ie, el, es, fr, it, cy, lv, lt, lu, hu, mt, nl, at, pl, pt, ro, si, sk, fi, se, uk]
-  location: [ca,uk]
+  countries: [ca, us, ru, nl, fi, pl, cz, it, si, li, es, be, bg, cz, dk, de, ee, ie, el, es, fr, it, cy, lv, lt, lu, hu, mt, nl, at, pl, pt, ro, si, sk, fi, se, uk]
+  location: [us]
   url: http://bit.ly/1B4WpDJ
   content:|
-      <p>Buy and sell bitcoins through a simple exchange with competitive rates. This is the cheapest way to trade bitcoins.</p>
+      <p>Cointrader.net is a meticulously engineered Bitcoin Exchange brought to you by the team that installed the world’s first Bitcoin ATM.</p>
+      <p>With offices in Vancouver and London they offer USD and CAD order books with cheap and easy deposit/withdrawal options that save you time and money.</p>
+      <p>They also have some of the lowest trading fees in the world and use a volume-based maker-taker fee model that gets as low as 0.05% per trade.</p>
   coins: [btc]
 
 coincafe:
