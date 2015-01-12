@@ -304,22 +304,42 @@ bitnz:
     <p>The simple New Zealand Bitcoin exchange. </p>
   coins: [btc]
 
+bitx_id:
+  label: BitX Indonesia
+  countries: [id]
+  location: [id]
+  icon: https://bitx.co/web/img/favicon-72.png
+  url: https://bitx.co/?utm_source=howtobuybitcoins
+  content: |
+    <p>BitX makes Bitcoin easy. Buy, sell, store and spend Bitcoin in Indonesia.</p>
+  coins: [btc]
+
 bitx_ke:
   label: BitX Kenya
   countries: [ke]
   location: [ke]
-  icon: /favicon.png
-  url: https://bitx.co.ke/
+  icon: https://bitx.co/web/img/favicon-72.png
+  url: https://bitx.co/?utm_source=howtobuybitcoins
   content: |
     <p>BitX makes Bitcoin easy. Buy and sell Bitcoin in Kenya on a local trusted exchange.</p>
+  coins: [btc]
+
+bitx_my:
+  label: BitX Malaysia
+  countries: [my]
+  location: [my]
+  icon: https://bitx.co/web/img/favicon-72.png
+  url: https://bitx.co/?utm_source=howtobuybitcoins
+  content: |
+    <p>BitX makes Bitcoin easy. Buy, sell, store and spend Bitcoin in Malaysia on a local trusted exchange.</p>
   coins: [btc]
 
 bitx_na:
   label: BitX Namibia
   countries: [na]
   location: [na]
-  icon: /favicon.png
-  url: https://bitx.com.na/
+  icon: https://bitx.co/web/img/favicon-72.png
+  url: https://bitx.co/?utm_source=howtobuybitcoins
   content: |
     <p>BitX makes Bitcoin easy. Buy and sell Bitcoin in Namibia on a local trusted exchange.</p>
   coins: [btc]
@@ -328,8 +348,8 @@ bitx_za:
   label: BitX South Africa
   countries: [za]
   location: [za]
-  icon: /favicon.ico
-  url: https://bitx.co.za/
+  icon: https://bitx.co/web/img/favicon-72.png
+  url: https://bitx.co/?utm_source=howtobuybitcoins
   content: |
     <p>Buy, sell, store and spend Bitcoin in South Africa. BitX is the oldest and largest Bitcoin exchange in Africa.</p>
   coins: [btc]
