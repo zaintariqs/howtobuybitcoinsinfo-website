@@ -1386,7 +1386,7 @@ bitboat:
   label: BitBoat
   countries: [it, fr]
   location: [it, fr]
-  icon: /res/favicon.png
+  icon: https://www.bitboat.net/res/favicon.png
   url: https://www.bitboat.net/
   content: |
     <p>Buy bitcoin with cash deposit, fully automated.</p>
