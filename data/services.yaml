@@ -1520,11 +1520,11 @@ SatoshiTango:
   label: SatoshiTango - Bitcoin Nunca Fue Tan Fácil
   countries: [ar]
   location: [ar]
+  icon: https://www.satoshitango.com/favicon.ico
   url: https://www.satoshitango.com/
   content: |
     <p>Comprá y vendé bitcoins en pesos argentinos de forma rápida y segura.</p>
   coins: [BTC]
-
 
 Ripio:
   label: Ripio - Comprar Bitcoin Facil
