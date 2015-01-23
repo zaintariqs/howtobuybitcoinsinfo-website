@@ -1910,3 +1910,13 @@ Harborly:
   content: |
     <p>Buy & Sell Bitcoin and Litecoin in Canada.</p>
   coins: [btc, ltc]
+
+Exmo:
+  label: Exmo
+  countries: [worldwide]
+  location: [uk]  
+  url: https://exmo.com/
+  content: |
+     <p>It has never been so easy to use Bitcoin.</p>
+     <p>Buy & Sell Bitcoin.</p>
+  coins: [btc, ltc, doge]
