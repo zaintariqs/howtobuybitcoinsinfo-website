@@ -1189,6 +1189,15 @@ aaronbuysgold:
   content:  Aaron Buys Gold Ltd is the Edmonton Areas first in-store bitcoin exchange and the first bitcoin exchange that also sells precious metals. Buy Bitcoin safe and secure in store with professional service and advice. Trade bitcoin for Precious metals.
   coins: [btc]
 
+bitmarket24ee:
+  label: Bitmarket24.ee
+  countries: [ee]
+  location: [ee]
+  icon: http://bitmarket24.ee/wp-content/themes/jupiter/images/favicon.png
+  url: http://bitmarket24.ee/
+  content:  Bitcoin exchange - Buy and sell Bitcoin within 1 minute, right now! Local payments!
+  coins: [btc]
+
 bitmarketlt:
   label: Bitmarket.lt
   countries: [lt]
