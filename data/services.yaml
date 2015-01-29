@@ -75,7 +75,18 @@ coincafe:
       <p>Buy Bitcoins with cash, check, wire transfer, Western Union, or credit/debit card. Or stop by our NYC location to use our ATM!</p>
       <p>Find us on Twitter here: <a href="https://twitter.com/getcoincafe">@GetCoinCafe</></p>
   coins: [BTC]
-
+cubits:
+  label: Cubits
+  icon: https://cubits.com/favicon.ico
+  countries: [us, ru, nl, rs, fi, pl, cz, it, si, li, es, be, bg, cz, dk, de, ee, ie, el, es, fr, it, cy, lv, lt, lu, hu, mt, nl, at, pl, pt, ro, si, sk, fi, se, uk]
+  url: https://cubits.com
+  content: |
+      <p>Cubits is a European all-inclusive platform to buy, sell, and accept Bitcoin.</p>
+      <p>Transfer one of the 17 currencies supported via OBT, OKPAY, SOFORT, SEPA and SWIFT </p>
+      <p> Instant deposits, cold storage and multisignature wallets </p>
+    
+  coins: [btc]  
+  
 expresscoin:
   icon: http://expresscoin.com/themes/expresscoin/assets/images/favicon.ico
   label: expresscoin
