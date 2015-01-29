@@ -1940,3 +1940,23 @@ Exmo:
      <p>It has never been so easy to use Bitcoin.</p>
      <p>Buy & Sell Bitcoin.</p>
   coins: [btc, ltc, doge]
+
+Igot:
+  uniquename: Igot
+  label: Igot - Buy, Sell, Send, and Receive Bitcoin easily. Store Bitcoin in Your Hosted Wallet!
+  countries: [au, at, be, bg, hr, cy, cz, dk, ee, fi, fr, de, gr, hu, ie, it, lv, lt, lu, mt, nl, an, pl, pt, ro, sk, sl, es, se, gb, in, sg, hk, ae]
+  icon: https://www.igot.com/favicon.ico
+  url: https://www.igot.com/
+  content: |
+    <p>Bitcoin is the first truly international currency that can be used anywhere in the world. It is our mission to expand Bitcoin’s reach to as many people as possible.</p>
+    <p>At igot we take into consideration the following guidelines:<br />
+      <ul>
+        <li>Personal, Financial and Data Security are our top priorities. Customer’s information is always kept private. 95% of Bitcoin data is stored in offline vaults.</li>
+        <li>We offer the real price of a Bitcoin, simple as that.</li>
+        <li>There is a 1% Transaction fee. We have no hidden fees.</li>
+        <li>We are a service provider, therefore customer service is very important to us. If you have a question or problem you can reach us anytime, day or night.</li>
+        <li>We always continue to meet legal requirements. It is our job to make sure we comply with the law at all times.</li>
+      </ul>
+    </p>
+  coins: [btc]
+  location: [au, nl, an, in, sg, hk, ae]
