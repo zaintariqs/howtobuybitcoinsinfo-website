@@ -1138,9 +1138,9 @@ coinloft:
   label: Coinloft
   countries: [au]
   location: [au]
-  icon: https://www.coinloft.com.au/wp-content/uploads/2013/12/favicon.ico
+  icon: https://www.coinloft.com.au/favicon.ico
   url: http://www.coinloft.com.au/
-  content:  Coin Loft enables purchase of Bitcoin with Australian Dollar via bank deposit
+  content:  Coin Loft enables purchase of Bitcoin with Australian Dollar via bank deposit. No GST on bitcoin value
   coins: [btc]
 
 ice3x:
