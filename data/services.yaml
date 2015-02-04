@@ -146,7 +146,7 @@ celery:
   url: https://www.gocelery.com/
   content: |
       <p>Easy and secure way to buy & sell Bitcoin, Litecoin & Dogecoin. Start by linking a US bank account. Based in New York, NY.</p>
-      <p>Twitter: <a href="https://twitter.com/btxtrader">@gocelery</></p>
+      <p>Twitter: <a href="https://twitter.com/gocelery">@gocelery</></p>
   coins: [btc, ltc, Doge]
   
 trucoin:
