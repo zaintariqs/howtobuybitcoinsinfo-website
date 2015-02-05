@@ -393,7 +393,17 @@ coined:
   content: |
     <p>Convert NZD into BTC. Deposit funds online or over the counter (Kiwibank).</p>
   coins: [btc]
-
+  
+PosteBit.it:
+  countries: [it]
+  location: [it]
+  icon: http://www.postebit.it/favicon.ico
+  label: PosteBit
+  url: http://www.postebit.it/
+  content: |
+    <p>Comprare bitcoin con ricarica postepay in euro contanti dalle poste, sisal, ITB o dal web. Acquistare con postebit è facile, veloce e sicuro!</p>
+  coins: [btc]
+  
 CoinBit.it:
   countries: [it]
   location: [it]
