@@ -1938,7 +1938,7 @@ Harborly:
   icon: https://s3.amazonaws.com/harborly/favicon/favicon-main.png
   url: https://harbor.ly
   content: |
-    <p>Buy & Sell Bitcoin and Litecoin in Canada.</p>
+    <p>Buy & Sell Bitcoin and Litecoin.</p>
   coins: [btc, ltc]
 
 Exmo:
