@@ -852,10 +852,12 @@ Bitonic:
 Bittiraha:
   label: Bittiraha.fi
   countries: [be, bg, cz, dk, de, ee, ie, el, es, fr, it, cy, lv, lt, lu, hu, mt, nl, at, pl, pt, ro, si, sk, fi, se, uk]
-  location: [nl]
+  location: [fi]
   icon: /favicon.png
   url: https://bittiraha.fi/
-  content: Bitcoin exchange. Provide services to anyone that has a bank account capable of SEPA transfers.
+  content: |
+  <p>Reliable Finnish Bitcoin Exchange. Operational since 2012. Allows buying & selling bitcoins via SEPA transfers, paying bills with bitcoin & bitcoin wage payments.</p>
+  <p>Luotettava suomalainen Bitcoin-palvelu. Toiminnassa vuodesta 2012. Mahdollistaa bitcoinien oston ja myynnin pankkisiirroilla, laskujen maksun bitcoineilla ja palkanmaksun bitcoineissa.</p>
   coins: [btc]
 
 HappyCoins:
