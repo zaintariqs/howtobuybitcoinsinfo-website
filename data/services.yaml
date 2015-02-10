@@ -1944,6 +1944,22 @@ btcontrust:
   url: http://www.btcontrust.com/
   content: The easiest way, secure and confidential and negotiate to buy cryptomonete.  
   coins: [btc]
+   
+Gatecoin:
+  label: Gatecoin
+  countries: [hk,, it, si, li, es, de, ee, ie, el, es, fr, be, bg, cz, dk, cy, lv, lt, lu, hu, mt,ru, nl, rs, fi, pl, cz] 
+  location: [hk]
+  icon: https://gatecoin.com/public/img/favicon.ico
+  url: https://www.gatecoin.com/
+  content: |
+    <p>Gatecoin is the first global financial institution for Bitcoin, enabling you to use local transfers and trade worldwide.</p>
+    <ul>
+      <li>Based in Hong-Kong, Money-Service Business licensed</li>
+      <li>Buy, sell and trade Bitcoin, (Ripple coming soon) for HKD, USD and EUR</li>
+      <li>Instant deposits via OKPAY available</li>
+      <li>Sofort banking coming soon</li>
+    </ul>
+  coins: [btc, xrp]
   
 Harborly:
   label: Harborly
