@@ -1947,7 +1947,7 @@ btcontrust:
    
 Gatecoin:
   label: Gatecoin
-  countries: [hk,, it, si, li, es, de, ee, ie, el, es, fr, be, bg, cz, dk, cy, lv, lt, lu, hu, mt,ru, nl, rs, fi, pl, cz] 
+  countries: [hk, it, si, li, es, de, ee, ie, el, es, fr, be, bg, cz, dk, cy, lv, lt, lu, hu, mt,ru, nl, rs, fi, pl, cz] 
   location: [hk]
   icon: https://gatecoin.com/public/img/favicon.ico
   url: https://www.gatecoin.com/
