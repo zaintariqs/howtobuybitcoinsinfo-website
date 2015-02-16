@@ -676,8 +676,8 @@ forepost:
   label: Forepost
   countries: [au]
   location: [au]
-  icon: http://forepost.com.au/favicon.ico
-  url: https://forepost.com.au
+  icon: http://forepost.net/favicon.ico
+  url: https://forepost.net
   content: |
       <p>Buy Bitcoins with Cash at any one of Australia’s Big Four - Commonwealth Bank, ANZ, NAB or Westpac.</p>
   coins: [btc]
