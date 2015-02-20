@@ -914,15 +914,6 @@ bitcointalk-otc:
   content: | <p>Over-the-counter exchange. Find a direct seller online to buy and sell bitcoin with.</p>
   coins: [btc]
 
-cavirtex:
-  countries: [ca]
-  location: [ca]
-  icon: /favicon.png
-  label: Canadian Virtual Exchange (CAVIRTEX)
-  url: affiliates.cavirtex.com/trade-bitcoin-the-canadian-way/53324/
-  content: |<p>CAVIRTEX is Canada's oldest and largest Bitcoin exchange. In its 3 years of operation,  CAVIRTEX has facilitated over $90 Million in trading between individuals, merchants, and Bitcoin ATMs (BTMs). In addition to being an exchange, CAVIRTEX offers merchant solutions, debit cards and BTM services.<br />Deposit options include:</p><ul><li>In-Person Cash Bill Payments</li> <li>Direct EFT with Canadian Banks</li><li>Interac Online </li><li>Online BIll Payment Option</li><li>Wire Transfer</li></ul>
-  coins: [btc, LTC]
-
 quickbt:
   countries: [ca]
   location: [ca]
@@ -940,15 +931,6 @@ virwox:
   url: https://www.virwox.com
   content: | <p>VirWoX is currently the only exchange where you can buy BTC with PayPal and Credit Cards (among other payment methods).</p> <p><a href="http://buybitcoinspaypal.com/buy-bitcoins-with-paypal/">How to buy Bitcoins with VirWox.</a></p>
   coins: [btc]
-
-vaultofsatoshi:
-  countries: [ca]
-  location: [ca]
-  icon: /favicon.png
-  label: Vault of Satoshi
-  url: https://www.vaultofsatoshi.com/
-  content: |<p>A new Canadian company offering all of its services at 0.5%. Buy/Sell Bitcoin, Litecoin and Peercoin. Supports deposit/withdrawal by e-wallet, deposits by cheque or wire transfer. </p>
-  coins: [btc, ltc, ppc]
 
 inrbtc:
   countries: [in]
@@ -1031,15 +1013,6 @@ giftcarddrainer:
   icon: https://giftcarddrainer.com/gcdc/resources/images/favicon.ico
   url: https://giftcarddrainer.com
   content: GiftCard Drainer provides a way to buy Bitcoins quickly. Submit a Visa, MasterCard, American Express or Discover gift card and receive payment in Bitcoins immediately or within 24 hours.
-  coins: [btc]
-
-quickbtaustralia:
-  countries: [au]
-  location: [au]
-  icon: https://quickbt.com/favicon.ico
-  label: QuickBT
-  url: https://quickbt.com/
-  content: Instant Bitcoin purchase/payment using your POLi enabled bank account.</p>
   coins: [btc]
 
 bitcointrust:
