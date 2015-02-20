@@ -226,15 +226,6 @@ cryptsy:
   content: Trade over 60 different types of cryptocurrencies.
   coins: [ALF, AMC, ANC, ARG, BQC, BTB, BTE, BTG, BUK, CAP, CGB, CLR, CMC, CRC, CSC, DGC, DMD, ELC, EMD, FRC, FRK, FST, FTC, GDC, GLC, GLD, GLX, HBN, IXC, KGC, LK7, LKY, LTC, MEC, MNC, NBL, NEC, NMC, NRB, NVC, PHS, PPC, PTS, PXC, PYC, QRK, SBC, SPT, SRC, TAG, TEK, TRC, WDC, XJO, XPM, YAC, ZET]
 
-coinrnr:
-  label: CoinRnr
-  countries: [us, ca]
-  location: [us]
-  icon: https://www.coinrnr.com/favicon.ico
-  url: https://www.coinrnr.com
-  content: Purchase bitcoin by cash deposit, wire transfer, INTERAC® Online, or Credit/Debit Card and receive it on the same day!
-  coins: [btc]
-
 coinsph:
   icon: https://coins.ph/static/img/favicon.png
   label: CoinsPH
@@ -1312,17 +1303,6 @@ btcsm:
   content: |<p>Using this service you can buy around 5000 Satoshi ( 0.00005 BTC ) via sms. The price contain current BTC exchange rate and mobile operator fee. </p>
   coins: [btc]
 
-coinclutch:
-  label: CoinClutch
-  countries: [ca]
-  location: [ca]
-  icon: https://coinclutch.com/favicon.ico
-  url: https://coinclutch.com/
-  content: |
-    <p>CoinClutch Is Your Online Concierge For Purchasing Cryptocurrency!</p>
-    <p>Quickly purchase Bitcoin, Litecoin, Dogecoin with CoinClutch. All simply and easily with a bank account.</p>
-  coins: [btc,ltc,ppc,doge]
-
 HardBlock:
   label: HardBlock
   countries: [au]
@@ -1529,15 +1509,6 @@ coinnext:
   url: https://coinnext.com
   content: |<p>Easy and secure cryptocurrency exchange to buy and sell bitcoins and alternative cryptocurrencies.</p>
   coins: [btc, ltc, doge, ppc, nmc]
-
-JKCoins:
-  label: JandKCoins.ca
-  countries: [ca]
-  location: [ca]
-  icon: /favicon.png
-  url: http://www.jandkcoins.ca/
-  content: <p>J&KCoins - Offers Canadian residents a safe and secure method of purchasing paper wallets preloaded with Bitcoins using Interac Online.</p>
-  coins: [btc, doge]
 
 BitBay:
   label: BitBay
