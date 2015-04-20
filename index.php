@@ -76,7 +76,7 @@
 		<a href="https://bitcoin.org/en/choose-your-wallet">Get a Wallet</a> | 
 		<a href="https://luxstack.com/developers">Build Bitcoin Apps</a> | 
 		<a href="http://howtobuycryptocoins.info/">Buy Altcoins</a> | 
-		<a href="https://github.com/jonwaller/howtobuybitcoinsinfo-website/blob/master/data/services.yaml">Contribute on Github</a>
+		<a href="https://github.com/jonwaller/howtobuybitcoinsinfo-website/blob/master/data/services.yaml">Contribute on Github</a>&nbsp;
 	</div>  
 
 	<!-- AddThis Button BEGIN -->
@@ -178,16 +178,19 @@
 		<div class="resultsmasonry">
 		
   <div class="warningBox">
-      <a href="http://luxstack.com/developers" target="_blank">
+      <a href="http://luxstack.com/" target="_blank">
         <h3 class="box-title">
-            Sponsored by LUXSTACK
+            LUXSTACK
         </h3>
       </a>
-    <div class="box-content">
-      <p>LUXSTACK is the fastest way to build bitcoin applications. Plug in our powerful SDKs to supercharge your bitcoin toolbox.</p>
+    <div class="box-content" style="float:left;width:70%">
+		<p>
+			LUXSTACK is a free, fully native bitcoin app for Android that helps you securely store and spend your money without compromising usability or usefulness. <br /><br />
+			<!-- LUXSTACK helps you integrate bitcoin into every area of your daily life and delivers the features you expect from a cashless lifestyle. -->
+		</p>
     </div>
-    <div style="text-align:right">
-      <a class="button" href="http://luxstack.com/developers" target="_blank">Build apps!</a>
+    <div style="float:right;width:20%;text-align:right">
+      <a class="googleplaybutton" href="https://play.google.com/store/apps/details?id=com.luxstack.LUXSTACK.android" target="_blank"><img src="/img/google-play.png" /></a>
     </div>
   </div>
 
@@ -195,6 +198,7 @@
 
 	<?if (isset($currentcountry)){?>
 
+<br/>
 		<div class="results">
 			<hr />
 			<h3>Exchanges in <?=$countrynames[$currentcountry]?>:</h3>

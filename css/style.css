@@ -404,6 +404,13 @@ textarea {
   display: inline-block;
 }
 
+.googleplaybutton {
+  margin: 5px;
+  width: auto;
+  display: inline-block;
+  padding: 3px 8px;
+}
+
 .button.buttonCancel {
   background-color: white;
   color: black;
