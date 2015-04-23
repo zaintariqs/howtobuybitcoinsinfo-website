@@ -1946,3 +1946,11 @@ Igot:
     </p>
   coins: [btc]
   location: [au, nl, an, in, sg, hk, ae]
+  
+  Urdubit:
+  URL: https://www.urdubit.com
+  label: Urdubit
+  countries: [PK]
+  location: [PK]
+  content: Pakistan's first bitcoin trading platform
+  coins: [BTC]
